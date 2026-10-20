@@ -1,0 +1,5 @@
+lib_id,kindom,family,species_name,Antarctica,Australia,Brazil,China,Germany,New Zealand,the United States
+Coronaviridae|SRR30664529_k59_1671_1_1158.0000_len26130,k__Viruses,f__Coronaviridae,Gentoo penguin virus,324.92755250,426.40039766,0.00000000,33.71967367,0.00000000,0.00000000,44704.41527000
+Campylobacter|SRR34855225_k141_118469_1_5.0000_len2645,k__Bacteria,f__Campylobacteraceae,Campylobacter jejuni,0.00000000,3.58498867,0.00000000,79.47294685,0.00000000,2.55327978,3.72255727
+Platyhelminthes|CRR1001671_k119_2413_flag1_multi15.0000_len614,k__Eukaryota,f__Taeniidae,Hydatigera sp. Avi1,0.00000000,74.88973027,0.00000000,78.84625303,0.00000000,9.33452247,11.00998162
+Parabasalia|SRR26222423_k141_68893_flag1_multi36.0000_len1467,k__Eukaryota,f__Trichomonadidae,Trichomonas sp. Avi2,0.00000000,132.53033670,0.00000000,40.91742745,0.00000000,4.46502328,1136.54191504

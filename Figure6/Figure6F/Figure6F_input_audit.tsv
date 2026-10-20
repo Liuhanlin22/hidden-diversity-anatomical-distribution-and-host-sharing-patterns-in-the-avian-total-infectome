@@ -1,0 +1,12 @@
+field	value
+source_matrix	../../../data_processing/00_profiling/results_final/Figure6_Table5_compatible_RPM_matrix_469rows.csv
+source_metadata	../../../data_processing/00_profiling/Supplement_Table2_libs_hosts_qc_info.xlsx
+matrix_rows	469
+matrix_library_columns	389
+domestic_libraries	51
+wild_libraries	338
+merged_cross_class_species	22
+aggregation	sum RPM across libraries within Domestic/Wild
+species_merge	Streptococcus suis strain avian/pig group -> Streptococcus suis
+species_name_normalization	Tritrichomonas sp . Avi1 -> Tritrichomonas sp. Avi1
+filter	Domestic > 0 and Wild > 0

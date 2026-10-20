@@ -1,0 +1,8 @@
+﻿sequence_id	species_name	orf_id	strand	frame	retained_start	retained_end	feature	putative_gene_product	annotation_label	reference_taxon	accession	hit_rank	hsp_index	q_start	q_end	evalue	bitscore	identity_pct
+ref01	Aviadenovirus sp. L7	ref01__strand-__frame1__nt1-663	-	1	1	591	NR-supported putative protein	protease	protease (UVZ42956)	Siadenovirus carbocapituli	UVZ42956	1	1	25	221	2.51e-102	305.834	70.56
+ref01	Aviadenovirus sp. L7	ref01__strand-__frame2__nt3354-4043	-	2	3354	4034	NR-supported putative protein	pVI protein	pVI protein (USL85446)	Blackbird siadenovirus	USL85446	1	1	4	230	1.4e-134	388.652	83.26
+ref01	Aviadenovirus sp. L7	ref01__strand-__frame2__nt603-3341	-	2	603	3341	NR-supported putative protein	hexon protein	hexon protein (USL85447)	Blackbird siadenovirus	USL85447	1	1	1	913	0	1621.29	84.46
+ref02	Circovirus parrot	ref02__strand+__frame2__nt941-1837	+	2	968	1837	NR-supported putative protein	clenched claw replicase	clenched claw replicase (QKX49049)	Beak and feather disease virus	QKX49049	1	1	10	299	0	606.675	100.00
+ref02	Circovirus parrot	ref02__strand-__frame1__nt64-879	-	1	64	804	NR-supported putative protein	capsid protein	capsid protein (AKO63011)	Beak and feather disease virus	AKO63011	1	1	26	272	0	509.99	99.60
+ref03	Avian pegivirus sp. 1	ref03__strand-__frame2__nt329-9226	-	2	332	9226	NR-supported putative protein	polyprotein	polyprotein (QVG71838)	Montifringilla taczanowskii pegivirus	QVG71838	1	1	1	2965	0	3258.39	57.19
+ref04	Avian associated metaavulavirus sp. L3	ref04__strand+__frame2__nt2-3229	+	2	2	3229	NR-supported putative protein	large polymerase protein	large polymerase protein (BAV25267)	avian paramyxovirus 5	BAV25267	1	1	1	1076	0	1999.56	87.73

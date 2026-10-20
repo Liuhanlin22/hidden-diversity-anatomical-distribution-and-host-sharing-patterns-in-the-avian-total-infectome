@@ -1,0 +1,61 @@
+lib_id,kindom,family,species_name,Accipitriformes,Anseriformes,Apterygiformes,Charadriiformes,Columbiformes,Falconiformes,Galliformes,Passeriformes,Pelecaniformes,Procellariiformes,Psittaciformes,Sphenisciformes,Strigiformes,Suliformes
+Caliciviridae|CRR1001668_k119_11309_1_11157.5093_len8599,k__Viruses,f__Caliciviridae,Avian associated calicivirus sp. 2,0.0,0.0,0,17351.657308426,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.03925902
+Caliciviridae|CRR1001677_k119_219_1_275.0000_len8072,k__Viruses,f__Caliciviridae,Avian associated calicivirus sp. 3,0.0,0.0,0,384.918346037,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.946004143
+Coronaviridae|SRR27462180_k119_4167_1_2674.0000_len27672,k__Viruses,f__Coronaviridae,Avian coronavirus,0.0,123919.49221913301,0,34.904942101,0.0,0,5367.157462565999,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Coronaviridae|SRR21527942_k141_4554_1_27.0000_len17001,k__Viruses,f__Coronaviridae,Canada goose coronavirus,0.0,1547.18285467,0,20.179393693999998,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Coronaviridae|SRR13847390_k119_8322_1_72.0000_len25862,k__Viruses,f__Coronaviridae,Deltacoronavirus sp. Avi1,0.0,0.0,0,45.67726829,0.0,0,0.0,264.719752,0.0,0.0,0.0,0.0,0.0,0.0
+Coronaviridae|SRR30664529_k59_1671_1_1158.0000_len26130,k__Viruses,f__Coronaviridae,Gentoo penguin virus,0.0,0.0,0,45164.535341329996,0.0,0,0.0,0.0,0.0,0.0,0.0,324.9275525,0.0,0.0
+Hepadnaviridae|L-230716_3_RNA_k141_591638_1_44.0000_len3002,k__Viruses,f__Hepadnaviridae,Duck hepatitis B virus,0.0,16.121700075,0,0.0,0.0,0,0.0,0.0,0.0,0.0,5.78814416,0.0,0.0,0.0
+Hepeviridae|CRR1001672_k119_1655_1_904.0000_len5147,k__Viruses,f__Hepeviridae,Avian associated paslahepevirus sp. 1,0.0,0.0,0,569.1803722909999,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.70037268
+Picornaviridae|CRR1001663_k119_10256_1_486.0000_len7527,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L1,0.0,0.0,0,388.707605866,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.8006756
+Picornaviridae|CRR1001697_k119_12177_1_38.0000_len3925,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L118,0.0,0.0,0,124.611695466,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.378145364
+Picornaviridae|CRR1001697_k119_423_1_68.0000_len7039,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L130,0.0,0.0,0,176.442752294,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.83288657
+Picornaviridae|CRR1001697_k119_4770_1_590.0000_len7568,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L131,0.0,0.0,0,556.9455012619999,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13.41996731
+Picornaviridae|CRR1001699_k119_10717_1_596.0000_len7414,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L148,0.0,0.0,0,1105.8141644759999,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.89521195
+Picornaviridae|CRR1001699_k119_10945_1_765.0000_len6943,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L149,0.0,0.0,0,1295.6333665200002,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.56081073
+Picornaviridae|CRR1001699_k119_12690_1_76.0000_len3884,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L150,0.0,0.0,0,80.158533392,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.38006756
+Picornaviridae|CRR1001700_k119_18870_1_1846.1002_len7705,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L157,0.0,0.0,0,2569.170828302,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.1813839
+Picornaviridae|CRR1001700_k119_21807_1_1622.5240_len7334,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L158,0.0,0.0,0,2142.322148178,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.37430097
+Picornaviridae|CRR1001700_k119_4841_0_664.0000_len5824,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L160,0.0,0.0,0,765.462988738,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.70613926
+Picornaviridae|CRR1001703_k119_1551_1_125.0000_len7424,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L164,0.0,0.0,0,386.241313938,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.2283317
+Picornaviridae|CRR1001663_k119_575_1_13.0000_len5315,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L18,0.0,0.0,0,48.584750098,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.69973194
+Picornaviridae|CRR1001663_k119_9951_1_174.0000_len7087,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L22,0.0,0.0,0,179.62194762300004,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.375582436
+Picornaviridae|CRR1001668_k119_437_1_598.3689_len7363,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L27,0.0,25.449079054000002,0,1100.1727857540002,0.0,0,0.0,0.0,5.775666512,0.0,0.0,0.0,0.0,47.63612511
+Picornaviridae|CRR1001668_k119_714_1_285.8763_len7030,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L28,0.0,0.0,0,442.5086672989999,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,11.51642585
+Picornaviridae|CRR1001670_k119_12633_1_48.9666_len7315,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L32,0.0,0.0,0,411.13932258999984,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.236661219
+Picornaviridae|CRR1001672_k119_9612_1_72.0000_len7289,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L45,0.0,0.0,0,840.243108002,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.517707314
+Picornaviridae|CRR1001675_k119_19315_1_45220.4169_len7994,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L58,0.0,0.0,0,122774.42582935604,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.27207585
+Picornaviridae|CRR1001676_k119_8677_1_65.0000_len7148,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L77,0.0,0.0,0,313.306565013,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.01811486
+Picornaviridae|CRR1001678_k119_6706_1_42.0000_len6905,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L88,0.0,0.0,0,94.7334053,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.46691512
+Picornaviridae|CRR1001678_k119_7559_1_116.0000_len7349,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L89,0.0,0.0,0,144.97757905199998,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.518988778
+Picornaviridae|CRR1001679_k119_141_1_232.0000_len7475,k__Viruses,f__Picornaviridae,Avian associated hepato-like virus sp. L91,0.0,0.0,0,206.461159475,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.5891773
+Picornaviridae|CRR1001681_k119_8640_1_4598.7258_len7295,k__Viruses,f__Picornaviridae,Avian associated picorna-like virus sp. L10,0.0,0.0,0,3375.0676078859997,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,23.22320585
+Picornaviridae|CRR1001699_k119_10838_1_196.2437_len8281,k__Viruses,f__Picornaviridae,Avian associated picorna-like virus sp. L15,0.0,0.0,0,504.378371774,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.51578512
+Picornaviridae|CRR1259782_k141_26674_1_53.0000_len1943,k__Viruses,f__Picornaviridae,Avian associated picorna-like virus sp. L21,0.0,0.0,0,24.224786617,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.52283317
+Picornaviridae|CRR1259816_k141_8354_1_7016.6791_len7785,k__Viruses,f__Picornaviridae,Avian associated picorna-like virus sp. L24,0.0,0.0,0,15720.176022175001,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,4.062992638,0.0
+Picornaviridae|CRR1001676_k119_4611_1_331.9008_len6906,k__Viruses,f__Picornaviridae,Avian associated picorna-like virus sp. L7,0.0,0.0,0,602.7400024,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.757572193
+Picornaviridae|CRR1001680_k119_3326_1_310.0000_len7385,k__Viruses,f__Picornaviridae,Avian associated picorna-like virus sp. L9,0.0,0.0,0,757.046351011,0.0,0,0.0,0.0,1.100126955,0.0,0.0,0.0,0.0,0.0
+Picornaviridae|SRR25100773_k141_2019_1_587.0000_len9226,k__Viruses,f__Picornaviridae,Chicken picornavirus 4,0.0,15066.14225,0,0.0,0.0,0,3456.4237675870004,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Picornaviridae|SRR27462180_k119_2009_1_34.0000_len3776,k__Viruses,f__Picornaviridae,Gallivirus sp.,0.0,216.4294281,0,0.0,0.0,0,439.04619411000004,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Picornaviridae|SRR25100775_k141_765_0_381.3975_len8756,k__Viruses,f__Picornaviridae,Megrivirus sp.,0.0,1176.184629,0,0.0,0.0,0,405.865540925,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Picornaviridae|SRR26222427_k141_70639_1_55.0000_len1728,k__Viruses,f__Picornaviridae,Passerivirus GPS,0.0,0.0,0,33.10298439,0.0,0,0.0,10158.750604225,0.0,10.61116641,0.0,0.0,0.0,0.0
+Picornaviridae|SRR8189302_k119_24378_1_28.0000_len9689,k__Viruses,f__Picornaviridae,Pink-eared duck megrivirus,0.0,93.13079802,0,46.64815295,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Picornaviridae|SRR27462180_k119_3511_1_150.0000_len8474,k__Viruses,f__Picornaviridae,Sicinivirus A,0.0,2202.100215,0,0.0,0.0,0,124.827576087,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Campylobacter|SRR34855225_k141_118469_1_5.0000_len2645,k__Bacteria,f__Campylobacteraceae,Campylobacter jejuni,0.0,8.114155721,0,76.537315123,0.0,0,2.129021953,2.553279781,0.0,0.0,0.0,0.0,0.0,0.0
+Clostridium|SRR26222429_k141_3217_1_22.0000_len1243,k__Bacteria,f__Clostridiaceae,Clostridium botulinum,0.0,4.509897217,0,59.409505186000004,0.0,0,5.6117179639999994,0.0,1.375158693,1.842894934,1.171544588,0.0,0.0,0.0
+Mycoplasma|SRR21527959_k141_25049_1_10.0000_len998,k__Bacteria,f__Mycoplasmataceae,Mycoplasma anserisalpingitidis,0.0,2.870305637,0,0.0,0.0,0,0.0,1.042742381,0.0,1.526751436,0.0,0.0,0.0,0.0
+Avibacterium|SRR25100773_k141_8346_1_51.0000_len1047,k__Bacteria,f__Pasteurellaceae,Avibacterium paragallinarum,0.0,12.62417475,0,3.719945348,0.0,0,39.999458247,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Staphylococcus|SRR31383128_k141_77319_1_21.0000_len1740,k__Bacteria,f__Staphylococcaceae,Staphylococcus aureus,0.0,3.50997183,0,45.89246268200001,0.0,0,23.389010976,3.087439163,1.650190432,7.218756788,5.946265221,0.0,0.0,0.0
+Streptococcus|SRR12550976_k119_49814_1_62.0000_len7743,k__Bacteria,f__Streptococcaceae,Streptococcus suis (strain pig group),0.0,190.99731343399998,0,483.294996096,0.0,0,2.589351023,0.0,0.0,0.0,4.402392150000001,0.0,0.0,0.0
+Streptococcus|SRR34855222_k141_94595_1_7.0000_len8080,k__Bacteria,f__Streptococcaceae,Streptococcus suis (strain avian group),0.0,583.57923136,0,144.86550465899998,0.0,0,29.308837603,1.597589257,0.0,0.0,18.039039861999996,0.0,0.0,0.0
+Vibrio|SRR34855212_k141_100632_1_4.0000_len688,k__Bacteria,f__Vibrionaceae,Vibrio cholerae,0.0,1.574325047,0,1.516935117,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Riemerella|SRR31509669_k141_6901_1_19.5795_len10364,k__Bacteria,f__Weeksellaceae,Riemerella anatipestifer,0.0,85.593051886,0,4.127334826,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.284890487
+Arthoropoda|SRR26222432_k141_29301_flag1_multi6.0000_len455,k__Eukaryota,f__Acaridae,Aleuroglyphus ovatus,0.0,0.0,0,2.743220816,0.0,0,0.0,2.048085386,0.0,4.7582179799999995,0.0,0.0,0.0,0.0
+Apicomplexa|SRR8189302_k119_28990_flag1_multi5.0000_len697,k__Eukaryota,f__Plasmodiidae,Plasmodium sp. Avi2,0.0,1.208444611,0,0.0,0.0,0,0.0,46.070106237999994,0.0,0.0,0.0,0.0,0.0,0.0
+Arthoropoda|SRR26222421_k141_15771_flag1_multi334.0000_len1896,k__Eukaryota,f__Sarcoptidae,Sarcoptes scabiei,0.0,2.6575501,0,60.09108886699999,0.0,0,1.020145556,54.386267615,7.975920421,0.0,23.216304036,0.0,2.708661759,0.0
+Nematoda|CRR1259788_k141_10324_flag1_multi21.0000_len1510,k__Eukaryota,f__Strongyloididae,Strongyloides papillosus,0.0,0.0,0,14.334952453,0.0,0,0.0,2.575851782,0.0,0.0,0.0,0.0,0.0,0.0
+Platyhelminthes|CRR1001671_k119_2413_flag1_multi15.0000_len614,k__Eukaryota,f__Taeniidae,Hydatigera sp. Avi1,0.0,1.353846277,0,148.99255902200002,0.0,0,0.0,14.676452646999998,0.0,0.0,7.390975468999999,0.0,0.0,0.0
+Parabasalia|SRR25100775_k141_13092_flag0_multi80.5733_len1390,k__Eukaryota,f__Trichomonadidae,Trichomonas sp. Avi1,0.0,12351.402685598,0,0.0,0.0,0,50.707069618,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Parabasalia|SRR26222423_k141_68893_flag1_multi36.0000_len1467,k__Eukaryota,f__Trichomonadidae,Trichomonas sp. Avi2,0.0,1170.1979526510002,0,136.995359971,0.0,0,7.261389844,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Parabasalia|SRR27428162_k141_111338_flag1_multi2.0000_len773,k__Eukaryota,f__Trichomonadidae,Trichomonas sp. Avi3,0.0,275.111424404,0,0.0,0.0,0,22.165040534,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Parabasalia|SRR27428161_k141_112551_flag1_multi14.0000_len960,k__Eukaryota,f__Tritrichomonadidae,Tritrichomonas sp . Avi1,0.0,5.014670569,0,0.0,0.0,0,2.029440381,0.0,0.0,0.0,2.899855982,0.0,0.0,0.0

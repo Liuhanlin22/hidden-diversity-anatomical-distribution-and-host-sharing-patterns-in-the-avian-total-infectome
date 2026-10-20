@@ -1,0 +1,4 @@
+"test","block","term","n","n_blocks","permutations","df","R2","F","p_value","status"
+"PERMANOVA","unblocked","Sample_Type",283,NA,999,8,0.107053692345609,4.10616957750638,0.001,"ok"
+"PERMANOVA","Block_Order","Sample_Type",283,13,999,8,0.107053692345609,4.10616957750638,0.001,"ok"
+"PERMANOVA","Block_Location","Sample_Type",283,7,999,8,0.107053692345609,4.10616957750638,0.001,"ok"

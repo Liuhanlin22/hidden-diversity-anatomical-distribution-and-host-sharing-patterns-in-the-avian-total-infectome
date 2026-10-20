@@ -1,0 +1,21 @@
+Input matrix: virus_table_selected_samples_updated.csv
+Metadata: library_annotation.csv
+Libraries analysed: 283
+Features analysed: 433
+Merged duplicate species rows: 1
+Mixed-tissue libraries excluded: 44
+Zero-abundance libraries excluded: 58
+Sample types analysed: Blood; Brain; Cecal content; Cloacal swab; Fecal samples; Intestine; Lesion; Liver; Lung
+Transformation: log10(RPM+1)
+Perplexity requested: 7
+Perplexity used: 7
+Seed: 123
+Max iterations: 3000
+Permutation count: 999
+Blocked permutations: permute::how(blocks = Order) and permute::how(blocks = Location)
+Order-stratified PERMANOVA R2: 0.107054
+Order-stratified PERMANOVA P: 0.001
+Order-blocked PERMDISP P: 0.001
+t-SNE final KL divergence: 0.555411
+Independent orthogonal data and a pre-specified biological negative-control variable were not supplied; no such result is claimed.
+t-SNE is exploratory and does not replace PERMANOVA or PERMDISP.

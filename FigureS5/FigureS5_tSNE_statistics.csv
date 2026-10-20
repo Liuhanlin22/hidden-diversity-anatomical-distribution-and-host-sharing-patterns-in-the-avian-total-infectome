@@ -1,0 +1,4 @@
+"analysis","panel","n_libraries","groups","perplexity","seed","permanova_R2","permanova_P","permdisp_P"
+"Wild-domestic","D",155,"Wild; Domestic",7,123,0.0421470579799401,0.001,0.001
+"Host order","E",151,"Charadriiformes; Psittaciformes; Anseriformes",7,123,0.104138613021712,0.001,0.001
+"Geography","F",154,"China; New Zealand; the United States",7,123,0.10344394392177,0.001,0.001

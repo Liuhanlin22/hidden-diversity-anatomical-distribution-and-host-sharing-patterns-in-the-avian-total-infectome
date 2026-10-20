@@ -1,0 +1,73 @@
+"analysis","group","depth","mean_richness","lower_95","upper_95"
+"Host order","Anseriformes",1,8.348,4,15
+"Host order","Charadriiformes",1,14.021,0,64
+"Geography","China",1,14.382,1,61
+"Wild-domestic","Domestic",1,7.914,4,12
+"Geography","New Zealand",1,1.577,1,3
+"Host order","Psittaciformes",1,1.579,1,3
+"Geography","the United States",1,7.943,4,12
+"Wild-domestic","Wild",1,13.665,1,61
+"Host order","Anseriformes",2,12.96,8,23
+"Host order","Charadriiformes",2,26.137,4,81
+"Geography","China",2,26.461,4,78.025
+"Wild-domestic","Domestic",2,10.798,7,13
+"Geography","New Zealand",2,2.044,1,4
+"Host order","Psittaciformes",2,2.102,1,4
+"Geography","the United States",2,10.8,8,14
+"Wild-domestic","Wild",2,25.159,3.975,72
+"Host order","Anseriformes",3,15.954,9,24
+"Host order","Charadriiformes",3,37.391,7,100
+"Geography","China",3,38.066,8,100
+"Wild-domestic","Domestic",3,12.493,9,15
+"Geography","New Zealand",3,2.577,1,5
+"Host order","Psittaciformes",3,2.562,1,4
+"Geography","the United States",3,12.423,9,15
+"Wild-domestic","Wild",3,35.875,6.975,87
+"Host order","Anseriformes",4,18.329,10,26
+"Host order","Charadriiformes",4,50.074,12,109.025
+"Geography","China",4,47.454,12,110
+"Wild-domestic","Domestic",4,13.519,10,16
+"Geography","New Zealand",4,3.038,1,5
+"Host order","Psittaciformes",4,2.984,1,5
+"Geography","the United States",4,13.467,10,16
+"Wild-domestic","Wild",4,47.11,12,109.025
+"Host order","Anseriformes",5,20.105,12,27
+"Host order","Charadriiformes",5,59.015,18,119
+"Geography","China",5,58.714,18,118.025
+"Wild-domestic","Domestic",5,14.246,12,16
+"Geography","New Zealand",5,3.497,2,5
+"Host order","Psittaciformes",5,3.462,2,5
+"Geography","the United States",5,14.175,12,16
+"Wild-domestic","Wild",5,57.492,17,120
+"Host order","Anseriformes",6,21.806,14,28
+"Host order","Charadriiformes",6,68.355,23,132
+"Geography","China",6,67.742,24,125.025
+"Wild-domestic","Domestic",6,14.853,13,16
+"Geography","New Zealand",6,3.911,2,5
+"Host order","Psittaciformes",6,3.945,2,5
+"Geography","the United States",6,14.788,12,16
+"Wild-domestic","Wild",6,64.949,22,123
+"Host order","Anseriformes",7,23.006,14,28
+"Host order","Charadriiformes",7,76.915,30.975,137.025
+"Geography","China",7,76.596,30,139
+"Wild-domestic","Domestic",7,15.279,13,16
+"Geography","New Zealand",7,4.307,2.975,5
+"Host order","Psittaciformes",7,4.31,2,5
+"Geography","the United States",7,15.261,13,16
+"Wild-domestic","Wild",7,72.861,26,134
+"Host order","Anseriformes",8,24.468,16,28
+"Host order","Charadriiformes",8,83.417,35,140
+"Geography","China",8,82.158,35,138
+"Wild-domestic","Domestic",8,15.666,14,16
+"Geography","New Zealand",8,4.691,3,5
+"Host order","Psittaciformes",8,4.656,3,5
+"Geography","the United States",8,15.661,14,16
+"Wild-domestic","Wild",8,79.555,30,142.025
+"Host order","Anseriformes",9,25.623,18,28
+"Host order","Charadriiformes",9,90.943,42,149
+"Geography","China",9,91.264,41,149
+"Wild-domestic","Domestic",9,16,16,16
+"Geography","New Zealand",9,5,5,5
+"Host order","Psittaciformes",9,5,5,5
+"Geography","the United States",9,16,16,16
+"Wild-domestic","Wild",9,89.451,37,150

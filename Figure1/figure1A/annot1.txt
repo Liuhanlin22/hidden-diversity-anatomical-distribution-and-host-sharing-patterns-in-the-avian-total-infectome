@@ -1,0 +1,12 @@
+DATASET_SYMBOL
+SEPARATOR TAB
+DATASET_LABEL    multi_sequences
+COLOR    #ff0000
+
+LEGEND_TITLE    Sequences containing "multi"
+LEGEND_SHAPES    1
+LEGEND_COLORS    #ff0000
+LEGEND_LABELS    multi
+
+NODE_ID    LABEL    SHAPE    SIZE    COLOR
+node_1    multi_sequence    circle    1.5    #ff0000

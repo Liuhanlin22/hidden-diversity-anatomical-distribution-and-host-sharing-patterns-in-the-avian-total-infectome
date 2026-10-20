@@ -1,0 +1,499 @@
+species_name	novelty	kingdom
+Avibacterium paragallinarum	known	k__Bacteria
+Campylobacter jejuni	known	k__Bacteria
+unclassified Clostridium species	known	k__Bacteria
+Clostridium botulinum	known	k__Bacteria
+Enterococcus faecalis	known	k__Bacteria
+Mycoplasma anserisalpingitidis	known	k__Bacteria
+unclassified Plesiomonas species	known	k__Bacteria
+Riemerella anatipestifer	known	k__Bacteria
+Staphylococcus aureus	known	k__Bacteria
+Streptococcus suis	known	k__Bacteria
+Vibrio cholerae	known	k__Bacteria
+Eimeria acervulina	known	k__Eukaryota
+Cryptosporidium ubiquitum	known	k__Eukaryota
+Plasmodium relictum	known	k__Eukaryota
+Sarcoptes scabiei	known	k__Eukaryota
+Aleuroglyphus ovatus	known	k__Eukaryota
+Eimeria sp. Avi1	novel	k__Eukaryota
+Eimeria sp. Avi2	novel	k__Eukaryota
+Eimeria sp. Avi3	novel	k__Eukaryota
+Eimeria sp. Avi4	novel	k__Eukaryota
+Eimeria sp. Avi5	novel	k__Eukaryota
+Eimeria sp. Avi6	novel	k__Eukaryota
+Trypanosoma theileri	known	k__Eukaryota
+Trachipleistophora hominis	known	k__Eukaryota
+Strongyloides papillosus	known	k__Eukaryota
+Plasmodium sp. Avi1	novel	k__Eukaryota
+Plasmodium sp. Avi2	novel	k__Eukaryota
+Plasmodium sp. Avi3	novel	k__Eukaryota
+Plasmodium sp. Avi4	novel	k__Eukaryota
+Plasmodium sp. Avi5	novel	k__Eukaryota
+Plasmodium sp. Avi6	novel	k__Eukaryota
+Plasmodium sp. Avi7	novel	k__Eukaryota
+Hymenolepis diminuta	known	k__Eukaryota
+Hydatigera sp. Avi1	novel	k__Eukaryota
+Taenia sp. Avi1	novel	k__Eukaryota
+Trichomonas sp. Avi1	novel	k__Eukaryota
+Trichomonas sp. Avi2	novel	k__Eukaryota
+Trichomonas sp. Avi3	novel	k__Eukaryota
+Trichomonas sp. Avi4	novel	k__Eukaryota
+Trichomonas sp. Avi5	novel	k__Eukaryota
+Tritrichomonas sp . Avi1	novel	k__Eukaryota
+Eutrombicula splendens sp. Avi1	novel	k__Eukaryota
+Aviadenovirus sp. L1	novel	k__Viruses
+Aviadenovirus sp. L2	novel	k__Viruses
+Aviadenovirus sp. L3	novel	k__Viruses
+Aviadenovirus sp. L4	novel	k__Viruses
+Aviadenovirus sp. L5	novel	k__Viruses
+Siadenovirus sp.	known	k__Viruses
+Aviadenovirus sp. L6	novel	k__Viruses
+Aviadenovirus sp. L7	novel	k__Viruses
+Aviadenovirus sp. L8	novel	k__Viruses
+Blackbird siadenovirus	known	k__Viruses
+Torque teno virus	known	k__Viruses
+Avian associated astrovirus sp. L1	novel	k__Viruses
+Avian associated astrovirus sp. L2	novel	k__Viruses
+Avian associated astrovirus sp. L3	novel	k__Viruses
+Avian associated astrovirus sp. L4	novel	k__Viruses
+Avian associated astrovirus sp. L5	novel	k__Viruses
+Avian associated astrovirus sp. L6	novel	k__Viruses
+Avian associated astrovirus sp. L7	novel	k__Viruses
+Avian associated astrovirus sp. L8	novel	k__Viruses
+Avian associated astrovirus sp. L9	novel	k__Viruses
+Avian associated astrovirus sp. L10	novel	k__Viruses
+Avian associated astrovirus sp. L11	novel	k__Viruses
+Avian associated astrovirus sp. L12	novel	k__Viruses
+Avian associated astrovirus sp. L13	novel	k__Viruses
+Avian associated calicivirus sp. 1	novel	k__Viruses
+Avian associated calicivirus sp. 2	novel	k__Viruses
+Avian associated calicivirus sp. 3	novel	k__Viruses
+Avian associated calicivirus sp. 4	novel	k__Viruses
+Avian associated calicivirus sp. 5	novel	k__Viruses
+Avian associated calicivirus sp. 6	novel	k__Viruses
+Chicken astrovirus	known	k__Viruses
+Avian associated calicivirus sp. 7	novel	k__Viruses
+Avian associated calicivirus sp. 8	novel	k__Viruses
+Avian associated calicivirus sp. 9	novel	k__Viruses
+Duck astrovirus GII.A	known	k__Viruses
+Avian associated calicivirus sp. 10	novel	k__Viruses
+Avian associated calicivirus sp. 11	novel	k__Viruses
+Avian associated calicivirus sp. 12	novel	k__Viruses
+Avian astrovirus 11	known	k__Viruses
+Avian associated calicivirus sp. 13	novel	k__Viruses
+Avian nephritis virus	known	k__Viruses
+Avian associated calicivirus sp. 14	novel	k__Viruses
+Avian associated calicivirus sp. 15	novel	k__Viruses
+Avian associated calicivirus sp. 16	novel	k__Viruses
+Avian associated calicivirus sp. 17	novel	k__Viruses
+Avian associated calicivirus sp. 18	novel	k__Viruses
+Avian associated calicivirus sp. 19	novel	k__Viruses
+Avian associated calicivirus sp. 20	novel	k__Viruses
+Avian associated calicivirus sp. 21	novel	k__Viruses
+Avian associated calicivirus sp. 22	novel	k__Viruses
+Avian associated calicivirus sp. 23	novel	k__Viruses
+Avian associated calicivirus sp. 24	novel	k__Viruses
+Avian associated calicivirus sp. 25	novel	k__Viruses
+Avian associated calicivirus 5	known	k__Viruses
+Avian associated calicivirus sp. 26	novel	k__Viruses
+Avian associated calicivirus sp. 27	novel	k__Viruses
+Avian associated calicivirus sp. 28	novel	k__Viruses
+Avian associated calicivirus sp. 29	novel	k__Viruses
+Avian associated calicivirus sp. 30	novel	k__Viruses
+Fantail calicivirus 2	known	k__Viruses
+Avian associated calicivirus sp. 31	novel	k__Viruses
+Tawaki calicivirus	known	k__Viruses
+Bavaria virus	known	k__Viruses
+Caliciviridae sp.	known	k__Viruses
+Bird calicivirus	known	k__Viruses
+Avian associated circo-like virus sp. 1	novel	k__Viruses
+Avian associated circo-like virus sp. 2	novel	k__Viruses
+Avian associated circo-like virus sp. 3	novel	k__Viruses
+Avian associated circo-like virus sp. 4	novel	k__Viruses
+Deltacoronavirus sp. Avi1	novel	k__Viruses
+Deltacoronavirus sp. Avi2	novel	k__Viruses
+Grey teal calicivirus	known	k__Viruses
+Avocet calicivirus	known	k__Viruses
+Duck calicivirus	known	k__Viruses
+Shelduck calicivirus	known	k__Viruses
+Ruddy turnstone calicivirus B	known	k__Viruses
+Ruddy turnstone calicivirus A	known	k__Viruses
+Avian pegivirus sp. 1	novel	k__Viruses
+Avian pegivirus sp. 2	novel	k__Viruses
+Avian hepacivirus sp. 1	novel	k__Viruses
+Circovirus parrot	known	k__Viruses
+Avian hepacivirus sp. 2	novel	k__Viruses
+Avihepadnavirus sp. 1	novel	k__Viruses
+Avihepadnavirus sp. 2	novel	k__Viruses
+Avian associated hepeviridae sp. H1	novel	k__Viruses
+Canada goose coronavirus	known	k__Viruses
+Chinese pond heron coronavirus XN11	known	k__Viruses
+Avian associated paslahepevirus sp. 1	novel	k__Viruses
+Avian coronavirus	known	k__Viruses
+Gentoo penguin virus	known	k__Viruses
+Avian associated hepeviridae sp. L1	novel	k__Viruses
+Fernbird pegivirus 1	known	k__Viruses
+Fernbird pegivirus 3	known	k__Viruses
+Avian associated hepeviridae sp. L2	novel	k__Viruses
+Avian associated hepeviridae sp. L3	novel	k__Viruses
+Avian associated hepeviridae sp. L4	novel	k__Viruses
+Duck hepatitis B virus	known	k__Viruses
+Parrot hepatitis B virus	known	k__Viruses
+Avian associated hepeviridae sp. L5	novel	k__Viruses
+Avian associated hepeviridae sp. L6	novel	k__Viruses
+Avian associated hepeviridae sp. L7	novel	k__Viruses
+Avian associated hepeviridae sp. L8	novel	k__Viruses
+Avian associated thetapapillomavirus sp. L1	novel	k__Viruses
+Avian associated metaavulavirus sp. L1	novel	k__Viruses
+Avian associated metaavulavirus sp. L2	novel	k__Viruses
+Avian associated metaavulavirus sp. L3	novel	k__Viruses
+Avian associated chaphamaparvovirus sp. L1	novel	k__Viruses
+Avian associated hepe-like virus 3	known	k__Viruses
+Avian associated hepe-like virus 4	known	k__Viruses
+Avian associated hepe-like virus 10	known	k__Viruses
+Avian associated hepe-like virus 9	known	k__Viruses
+Avian associated hepe-like virus 19	known	k__Viruses
+Avian associated hepe-like virus 14	known	k__Viruses
+Avian associated chaphamaparvovirus sp. L2	novel	k__Viruses
+Avian associated hepe-like virus 17	known	k__Viruses
+Avian associated chaphamaparvovirus sp. L3	novel	k__Viruses
+Avian associated chaphamaparvovirus sp. L4	novel	k__Viruses
+Avihepevirus magniiecur	known	k__Viruses
+Avian HDV-like agent	known	k__Viruses
+Turdid alphaherpesvirus 1	known	k__Viruses
+Alphainfluenzavirus influenzae	known	k__Viruses
+Avian associated chaphamaparvovirus sp. L5	novel	k__Viruses
+Avian associated chaphamaparvovirus sp. L6	novel	k__Viruses
+Avian associated chaphamaparvovirus sp. L7	novel	k__Viruses
+Avian associated chaphamaparvovirus sp. L8	novel	k__Viruses
+Avian associated chaphamaparvovirus sp. L9	novel	k__Viruses
+Avian associated chaphamaparvovirus sp. L10	novel	k__Viruses
+Avian associated phenuivirus sp. L1	novel	k__Viruses
+Avian associated phenuivirus sp. L2	novel	k__Viruses
+Avian associated phenuivirus sp. L3	novel	k__Viruses
+Avian associated phenuivirus sp. L4	novel	k__Viruses
+Metaavulavirus yucaipaense	known	k__Viruses
+Orthoavulavirus javaense	known	k__Viruses
+Avian associated phenuivirus sp. L5	novel	k__Viruses
+Avian associated phenuivirus sp. L6	novel	k__Viruses
+Avian associated aalivirus sp. L1	novel	k__Viruses
+Avian associated aalivirus sp. L2	novel	k__Viruses
+Avian associated anativirus sp. L1	novel	k__Viruses
+Avian associated hepato-like virus sp. L1	novel	k__Viruses
+Avian associated hepato-like virus sp. L2	novel	k__Viruses
+Myna chaphamaparvovirus	known	k__Viruses
+Avian associated hepato-like virus sp. L3	novel	k__Viruses
+Avian associated hepato-like virus sp. L4	novel	k__Viruses
+Avian associated hepato-like virus sp. L5	novel	k__Viruses
+Avian associated hepato-like virus sp. L6	novel	k__Viruses
+Avian associated hepato-like virus sp. L7	novel	k__Viruses
+Avian associated hepato-like virus sp. L8	novel	k__Viruses
+Avian associated hepato-like virus sp. L9	novel	k__Viruses
+Avian associated hepato-like virus sp. L10	novel	k__Viruses
+Avian associated hepato-like virus sp. L11	novel	k__Viruses
+Avian associated hepato-like virus sp. L12	novel	k__Viruses
+Avian associated hepato-like virus sp. L13	novel	k__Viruses
+Avian associated hepato-like virus sp. L14	novel	k__Viruses
+Avian associated hepato-like virus sp. L15	novel	k__Viruses
+Avian associated hepato-like virus sp. L16	novel	k__Viruses
+Avian associated hepato-like virus sp. L17	novel	k__Viruses
+Avian associated hepato-like virus sp. L18	novel	k__Viruses
+Avian associated hepato-like virus sp. L19	novel	k__Viruses
+Avian associated hepato-like virus sp. L20	novel	k__Viruses
+Avian associated hepato-like virus sp. L21	novel	k__Viruses
+Avian associated hepato-like virus sp. L22	novel	k__Viruses
+Avian associated hepato-like virus sp. L23	novel	k__Viruses
+Avian associated hepato-like virus sp. L24	novel	k__Viruses
+Avian associated hepato-like virus sp. L25	novel	k__Viruses
+Avian associated hepato-like virus sp. L26	novel	k__Viruses
+Avian associated hepato-like virus sp. L27	novel	k__Viruses
+Avian associated hepato-like virus sp. L28	novel	k__Viruses
+Avian associated hepato-like virus sp. L29	novel	k__Viruses
+Avian associated hepato-like virus sp. L30	novel	k__Viruses
+Avian associated hepato-like virus sp. L31	novel	k__Viruses
+Avian associated hepato-like virus sp. L32	novel	k__Viruses
+Avian associated hepato-like virus sp. L33	novel	k__Viruses
+Avian associated hepato-like virus sp. L34	novel	k__Viruses
+Avian associated hepato-like virus sp. L35	novel	k__Viruses
+Avian associated hepato-like virus sp. L36	novel	k__Viruses
+Avian associated hepato-like virus sp. L37	novel	k__Viruses
+Avian associated hepato-like virus sp. L38	novel	k__Viruses
+Avian associated hepato-like virus sp. L39	novel	k__Viruses
+Avian associated hepato-like virus sp. L40	novel	k__Viruses
+Avian associated hepato-like virus sp. L41	novel	k__Viruses
+Avian associated hepato-like virus sp. L42	novel	k__Viruses
+Avian associated hepato-like virus sp. L43	novel	k__Viruses
+Avian associated hepato-like virus sp. L44	novel	k__Viruses
+Avian associated hepato-like virus sp. L45	novel	k__Viruses
+Avian associated hepato-like virus sp. L46	novel	k__Viruses
+Avian associated hepato-like virus sp. L47	novel	k__Viruses
+Avian associated hepato-like virus sp. L48	novel	k__Viruses
+Avian associated hepato-like virus sp. L49	novel	k__Viruses
+Avian associated hepato-like virus sp. L50	novel	k__Viruses
+Avian associated hepato-like virus sp. L51	novel	k__Viruses
+Avian associated hepato-like virus sp. L52	novel	k__Viruses
+Avian associated hepato-like virus sp. L53	novel	k__Viruses
+Avian associated hepato-like virus sp. L54	novel	k__Viruses
+Avian associated hepato-like virus sp. L55	novel	k__Viruses
+Avian associated hepato-like virus sp. L56	novel	k__Viruses
+Avian associated hepato-like virus sp. L57	novel	k__Viruses
+Avian associated hepato-like virus sp. L58	novel	k__Viruses
+Avian associated hepato-like virus sp. L59	novel	k__Viruses
+Avian associated hepato-like virus sp. L60	novel	k__Viruses
+Avian associated hepato-like virus sp. L61	novel	k__Viruses
+Avian associated hepato-like virus sp. L62	novel	k__Viruses
+Avian associated hepato-like virus sp. L63	novel	k__Viruses
+Avian associated hepato-like virus sp. L64	novel	k__Viruses
+Avian associated hepato-like virus sp. L65	novel	k__Viruses
+Avian associated hepato-like virus sp. L66	novel	k__Viruses
+Avian associated hepato-like virus sp. L67	novel	k__Viruses
+Avian associated hepato-like virus sp. L68	novel	k__Viruses
+Avian associated hepato-like virus sp. L69	novel	k__Viruses
+Avian associated hepato-like virus sp. L70	novel	k__Viruses
+Avian associated hepato-like virus sp. L71	novel	k__Viruses
+Avian associated hepato-like virus sp. L72	novel	k__Viruses
+Avian associated hepato-like virus sp. L73	novel	k__Viruses
+Avian associated hepato-like virus sp. L74	novel	k__Viruses
+Avian associated hepato-like virus sp. L75	novel	k__Viruses
+Avian associated hepato-like virus sp. L76	novel	k__Viruses
+Avian associated hepato-like virus sp. L77	novel	k__Viruses
+Avian associated hepato-like virus sp. L78	novel	k__Viruses
+Avian associated hepato-like virus sp. L79	novel	k__Viruses
+Avian associated hepato-like virus sp. L80	novel	k__Viruses
+Avian associated hepato-like virus sp. L81	novel	k__Viruses
+Avian associated hepato-like virus sp. L82	novel	k__Viruses
+Avian associated hepato-like virus sp. L83	novel	k__Viruses
+Avian associated hepato-like virus sp. L84	novel	k__Viruses
+Avian associated hepato-like virus sp. L85	novel	k__Viruses
+Avian associated hepato-like virus sp. L86	novel	k__Viruses
+Avian associated hepato-like virus sp. L87	novel	k__Viruses
+Avian associated hepato-like virus sp. L88	novel	k__Viruses
+Avian associated hepato-like virus sp. L89	novel	k__Viruses
+Avian associated hepato-like virus sp. L90	novel	k__Viruses
+Avian associated hepato-like virus sp. L91	novel	k__Viruses
+Avian associated hepato-like virus sp. L92	novel	k__Viruses
+Avian associated hepato-like virus sp. L93	novel	k__Viruses
+Avian associated hepato-like virus sp. L94	novel	k__Viruses
+Avian associated hepato-like virus sp. L95	novel	k__Viruses
+Avian associated hepato-like virus sp. L96	novel	k__Viruses
+Avian associated hepato-like virus sp. L97	novel	k__Viruses
+Avian associated hepato-like virus sp. L98	novel	k__Viruses
+Avian associated hepato-like virus sp. L99	novel	k__Viruses
+Avian associated hepato-like virus sp. L100	novel	k__Viruses
+Avian associated hepato-like virus sp. L101	novel	k__Viruses
+Avian associated hepato-like virus sp. L102	novel	k__Viruses
+Avian associated hepato-like virus sp. L103	novel	k__Viruses
+Avian associated hepato-like virus sp. L104	novel	k__Viruses
+Avian associated hepato-like virus sp. L105	novel	k__Viruses
+Avian associated hepato-like virus sp. L106	novel	k__Viruses
+Avian associated hepato-like virus sp. L107	novel	k__Viruses
+Avian associated hepato-like virus sp. L108	novel	k__Viruses
+Avian associated hepato-like virus sp. L109	novel	k__Viruses
+Avian associated hepato-like virus sp. L110	novel	k__Viruses
+Avian associated hepato-like virus sp. L111	novel	k__Viruses
+Avian associated hepato-like virus sp. L112	novel	k__Viruses
+Avian associated hepato-like virus sp. L113	novel	k__Viruses
+Avian associated hepato-like virus sp. L114	novel	k__Viruses
+Avian associated hepato-like virus sp. L115	novel	k__Viruses
+Avian associated hepato-like virus sp. L116	novel	k__Viruses
+Avian associated hepato-like virus sp. L117	novel	k__Viruses
+Avian associated hepato-like virus sp. L118	novel	k__Viruses
+Avian associated hepato-like virus sp. L119	novel	k__Viruses
+Avian associated hepato-like virus sp. L120	novel	k__Viruses
+Avian associated hepato-like virus sp. L121	novel	k__Viruses
+Avian associated hepato-like virus sp. L122	novel	k__Viruses
+Avian associated hepato-like virus sp. L123	novel	k__Viruses
+Avian associated hepato-like virus sp. L124	novel	k__Viruses
+Avian associated hepato-like virus sp. L125	novel	k__Viruses
+Avian associated hepato-like virus sp. L126	novel	k__Viruses
+Avian associated hepato-like virus sp. L127	novel	k__Viruses
+Avian associated hepato-like virus sp. L128	novel	k__Viruses
+Avian associated hepato-like virus sp. L129	novel	k__Viruses
+Avian associated hepato-like virus sp. L130	novel	k__Viruses
+Avian associated hepato-like virus sp. L131	novel	k__Viruses
+Avian associated hepato-like virus sp. L132	novel	k__Viruses
+Avian associated hepato-like virus sp. L133	novel	k__Viruses
+Avian associated hepato-like virus sp. L134	novel	k__Viruses
+Avian associated hepato-like virus sp. L135	novel	k__Viruses
+Avian associated hepato-like virus sp. L136	novel	k__Viruses
+Avian associated hepato-like virus sp. L137	novel	k__Viruses
+Avian associated hepato-like virus sp. L138	novel	k__Viruses
+Avian associated hepato-like virus sp. L139	novel	k__Viruses
+Avian associated hepato-like virus sp. L140	novel	k__Viruses
+Avian associated hepato-like virus sp. L141	novel	k__Viruses
+Avian associated hepato-like virus sp. L142	novel	k__Viruses
+Avian associated hepato-like virus sp. L143	novel	k__Viruses
+Avian associated hepato-like virus sp. L144	novel	k__Viruses
+Avian associated hepato-like virus sp. L145	novel	k__Viruses
+Avian associated hepato-like virus sp. L146	novel	k__Viruses
+Avian associated hepato-like virus sp. L147	novel	k__Viruses
+Avian associated hepato-like virus sp. L148	novel	k__Viruses
+Avian associated hepato-like virus sp. L149	novel	k__Viruses
+Avian associated hepato-like virus sp. L150	novel	k__Viruses
+Avian associated hepato-like virus sp. L151	novel	k__Viruses
+Avian associated hepato-like virus sp. L152	novel	k__Viruses
+Avian associated hepato-like virus sp. L153	novel	k__Viruses
+Avian associated hepato-like virus sp. L154	novel	k__Viruses
+Avian associated hepato-like virus sp. L155	novel	k__Viruses
+Avian associated hepato-like virus sp. L156	novel	k__Viruses
+Avian associated hepato-like virus sp. L157	novel	k__Viruses
+Avian associated hepato-like virus sp. L158	novel	k__Viruses
+Avian associated hepato-like virus sp. L159	novel	k__Viruses
+Avian associated hepato-like virus sp. L160	novel	k__Viruses
+Avian associated hepato-like virus sp. L161	novel	k__Viruses
+Avian associated hepato-like virus sp. L162	novel	k__Viruses
+Avian associated hepato-like virus sp. L163	novel	k__Viruses
+Avian associated hepato-like virus sp. L164	novel	k__Viruses
+Avian associated hepato-like virus sp. L165	novel	k__Viruses
+Avian associated hepato-like virus sp. L166	novel	k__Viruses
+Avian associated hepato-like virus sp. L167	novel	k__Viruses
+Avian associated hepato-like virus sp. L168	novel	k__Viruses
+Avian associated hepato-like virus sp. L169	novel	k__Viruses
+Avian associated hepato-like virus sp. L170	novel	k__Viruses
+Avian associated hepato-like virus sp. L171	novel	k__Viruses
+Avian associated hepato-like virus sp. L172	novel	k__Viruses
+Avian associated hepato-like virus sp. L173	novel	k__Viruses
+Avian associated hepato-like virus sp. L174	novel	k__Viruses
+Avian associated hepato-like virus sp. L175	novel	k__Viruses
+Avian associated hepato-like virus sp. L176	novel	k__Viruses
+Avian associated hepato-like virus sp. L177	novel	k__Viruses
+Avian associated hepato-like virus sp. L178	novel	k__Viruses
+Avian associated hepato-like virus sp. L179	novel	k__Viruses
+Avian associated hepato-like virus sp. L180	novel	k__Viruses
+Avian associated hepato-like virus sp. L181	novel	k__Viruses
+Avian associated hepato-like virus sp. L182	novel	k__Viruses
+Avian associated hepato-like virus sp. L183	novel	k__Viruses
+Avian associated hepato-like virus sp. L184	novel	k__Viruses
+Avian associated hepato-like virus sp. L185	novel	k__Viruses
+Avian associated hepato-like virus sp. L186	novel	k__Viruses
+Avian associated hepato-like virus sp. L187	novel	k__Viruses
+Avian associated hepato-like virus sp. L188	novel	k__Viruses
+Avian associated hepato-like virus sp. L189	novel	k__Viruses
+Avian associated hepato-like virus sp. L190	novel	k__Viruses
+Avian associated hepato-like virus sp. L191	novel	k__Viruses
+Avian associated hepato-like virus sp. L192	novel	k__Viruses
+Avian associated hepato-like virus sp. L193	novel	k__Viruses
+Avian associated hepato-like virus sp. L194	novel	k__Viruses
+Avian associated hepato-like virus sp. L195	novel	k__Viruses
+Avian associated hepato-like virus sp. L196	novel	k__Viruses
+Avian associated hepato-like virus sp. L197	novel	k__Viruses
+Avian associated hepato-like virus sp. L198	novel	k__Viruses
+Avian associated hepato-like virus sp. L199	novel	k__Viruses
+Avian associated hepato-like virus sp. L200	novel	k__Viruses
+Avian associated hepato-like virus sp. L201	novel	k__Viruses
+Avian associated hepato-like virus sp. L202	novel	k__Viruses
+Avian associated hepato-like virus sp. L203	novel	k__Viruses
+Avian associated hepato-like virus sp. L204	novel	k__Viruses
+Avian associated hepato-like virus sp. L205	novel	k__Viruses
+Avian associated hepato-like virus sp. L206	novel	k__Viruses
+Avian associated hepato-like virus sp. L207	novel	k__Viruses
+Avian associated hepato-like virus sp. L208	novel	k__Viruses
+Avian associated hepato-like virus sp. L209	novel	k__Viruses
+Avian associated hepato-like virus sp. L210	novel	k__Viruses
+Avian associated hepato-like virus sp. L211	novel	k__Viruses
+Avian associated hepato-like virus sp. L212	novel	k__Viruses
+Avian associated hepato-like virus sp. L213	novel	k__Viruses
+Avian associated hepato-like virus sp. L214	novel	k__Viruses
+Avian associated hepato-like virus sp. L215	novel	k__Viruses
+Avian associated hepato-like virus sp. L216	novel	k__Viruses
+Avian associated hepato-like virus sp. L217	novel	k__Viruses
+Avian associated hepato-like virus sp. L218	novel	k__Viruses
+Avian associated hepato-like virus sp. L219	novel	k__Viruses
+Avian associated hepato-like virus sp. L220	novel	k__Viruses
+Avian associated hepato-like virus sp. L221	novel	k__Viruses
+Avian associated hepato-like virus sp. L222	novel	k__Viruses
+Avian associated hepato-like virus sp. L223	novel	k__Viruses
+Avian associated hepato-like virus sp. L224	novel	k__Viruses
+Avian associated ludopivirus sp. 1	novel	k__Viruses
+Avian associated sapelovirus sp. 1	novel	k__Viruses
+Avian associated sapelovirus sp. 2	novel	k__Viruses
+Avian associated sapelovirus sp. 3	novel	k__Viruses
+Avian associated sicinivirus sp. 1	novel	k__Viruses
+Avian associated tremovirus sp. 1	novel	k__Viruses
+Picornaviridae sp.	known	k__Viruses
+Avian associated tremovirus sp. 2	novel	k__Viruses
+Avian associated picorna-like virus sp. L1	novel	k__Viruses
+Avian associated picorna-like virus sp. L2	novel	k__Viruses
+Avian associated picorna-like virus sp. L3	novel	k__Viruses
+Avian associated picorna-like virus sp. L4	novel	k__Viruses
+Avian associated picorna-like virus sp. L5	novel	k__Viruses
+Avian associated picorna-like virus sp. L6	novel	k__Viruses
+Avian associated picorna-like virus sp. L7	novel	k__Viruses
+Avian associated picorna-like virus sp. L8	novel	k__Viruses
+Avian associated picorna-like virus sp. L9	novel	k__Viruses
+Avian associated picorna-like virus sp. L10	novel	k__Viruses
+Avian associated picorna-like virus sp. L11	novel	k__Viruses
+Avian associated picorna-like virus sp. L12	novel	k__Viruses
+Avian associated picorna-like virus sp. L13	novel	k__Viruses
+Avian associated picorna-like virus sp. L14	novel	k__Viruses
+Avian associated picorna-like virus sp. L15	novel	k__Viruses
+Avian associated picorna-like virus sp. L16	novel	k__Viruses
+Avian associated picorna-like virus sp. L17	novel	k__Viruses
+Avian associated picorna-like virus sp. L18	novel	k__Viruses
+Avian associated picorna-like virus sp. L19	novel	k__Viruses
+Avian associated picorna-like virus sp. L20	novel	k__Viruses
+Avian associated picorna-like virus sp. L21	novel	k__Viruses
+Avian associated picorna-like virus sp. L22	novel	k__Viruses
+Avian associated picorna-like virus sp. L23	novel	k__Viruses
+Avian associated picorna-like virus sp. L24	novel	k__Viruses
+Avian associated picorna-like virus sp. L25	novel	k__Viruses
+Avian associated picorna-like virus sp. L26	novel	k__Viruses
+Avian associated picorna-like virus sp. L27	novel	k__Viruses
+Avian associated picorna-like virus sp. L28	novel	k__Viruses
+Loch Leven virus	known	k__Viruses
+Netherby virus	known	k__Viruses
+Waterwitch virus	known	k__Viruses
+Sapelovirus sp.	known	k__Viruses
+Myna hepatovirus	known	k__Viruses
+Megrivirus A	known	k__Viruses
+Ludopivirus A	known	k__Viruses
+Avian associated picorna-like virus 25	known	k__Viruses
+Avian associated tupavirus sp. L1	novel	k__Viruses
+Avian associated picorna-like virus 21	known	k__Viruses
+Avian associated picorna-like virus 27	known	k__Viruses
+Avian associated tupavirus sp. L2	novel	k__Viruses
+Sooty Shearwater megrivirus 1	known	k__Viruses
+Robin hepatovirus 2	known	k__Viruses
+Mottled petrel hepatovirus 3	known	k__Viruses
+Mottled petrel hepatovirus 4	known	k__Viruses
+Chicken picornavirus 4	known	k__Viruses
+Avian associated tupavirus sp. L3	novel	k__Viruses
+Megrivirus sp.	known	k__Viruses
+Passerivirus GPS	known	k__Viruses
+Avian associated rhabdovirus sp. L1	novel	k__Viruses
+Avian associated rhabdovirus sp. L2	novel	k__Viruses
+Avian associated rhabdovirus sp. L3	novel	k__Viruses
+Avihepatovirus sp.	known	k__Viruses
+Gallivirus sp.	known	k__Viruses
+Sicinivirus A	known	k__Viruses
+Pacific black duck megrivirus	known	k__Viruses
+Avian associated rotavirus sp. L1	novel	k__Viruses
+Avocet megrivirus	known	k__Viruses
+Sharp-tailed sandpiper Picornavirus B-like	known	k__Viruses
+Red-capped plover megrivirus	known	k__Viruses
+Red-necked stint gallivirus	known	k__Viruses
+Red-necked stint Picornavirus B-like	known	k__Viruses
+Australian shelduck avian sapelovirus	known	k__Viruses
+Pink-eared duck megrivirus	known	k__Viruses
+Pink-eared duck picornavirus	known	k__Viruses
+Avian associated rotavirus sp. L2	novel	k__Viruses
+Avian associated rotavirus sp. L3	novel	k__Viruses
+Metapneumovirus avis	known	k__Viruses
+Avian associated rotavirus sp. L4	novel	k__Viruses
+Avian associated rotavirus sp. L5	novel	k__Viruses
+Avian associated rotavirus sp. L6	novel	k__Viruses
+Avian associated cypovirus sp. L1	novel	k__Viruses
+Avian associated cypovirus sp. L2	novel	k__Viruses
+Avian associated cypovirus sp. L3	novel	k__Viruses
+Duck rhabdovirus	known	k__Viruses
+Shelduck rhabdovirus	known	k__Viruses
+Avian associated cypovirus sp. L4	novel	k__Viruses
+Rotavirus A	known	k__Viruses
+Avian associated cypovirus sp. L5	novel	k__Viruses
+Avian associated aquareovirus sp. L1	novel	k__Viruses
+Rotavirus G	known	k__Viruses
+Fantail seadorna-like virus	known	k__Viruses
+Pachyptila rotavirus D	known	k__Viruses
+Rotavirus F	known	k__Viruses
+Cypovirus sp.	known	k__Viruses
+Cataraqui virus	known	k__Viruses

@@ -1,0 +1,390 @@
+lib_id	Type	Location	Domestic_or_Wild
+SRR7239362	Cloacal swab	Antarctica	Wild
+SRR7239363	Cloacal swab	Antarctica	Wild
+SRR11775224	Mixed type libs	Australia	Wild
+SRR11775225	Brain	Australia	Wild
+SRR11775226	Liver	Australia	Wild
+SRR11775227	Brain	Australia	Wild
+SRR11775228	Brain	Australia	Wild
+SRR11775229	Liver	Australia	Wild
+SRR11775230	Liver	Australia	Wild
+SRR12112773	Lung	Australia	Wild
+SRR12550974	Mixed type libs	Australia	Wild
+SRR12550975	Mixed type libs	Australia	Wild
+SRR12550976	Mixed type libs	Australia	Wild
+SRR12550977	Mixed type libs	Australia	Wild
+SRR12550978	Mixed type libs	Australia	Wild
+SRR16071451	Intestine	Australia	Wild
+SRR16071452	Brain	Australia	Wild
+SRR16071453	Brain	Australia	Wild
+SRR16071454	Liver	Australia	Wild
+SRR16071455	Liver	Australia	Wild
+SRR16071456	Intestine	Australia	Wild
+SRR31990207	Intestine	Australia	Wild
+SRR31990208	Intestine	Australia	Wild
+SRR7239364	Cloacal swab	Australia	Wild
+SRR7239365	Mixed type libs	Australia	Wild
+SRR7239366	Cloacal swab	Australia	Wild
+SRR7239367	Cloacal swab	Australia	Wild
+SRR7239368	Cloacal swab	Australia	Wild
+SRR7239369	Cloacal swab	Australia	Wild
+SRR7239370	Mixed type libs	Australia	Wild
+SRR7239371	Cloacal swab	Australia	Wild
+SRR7239372	Cloacal swab	Australia	Wild
+SRR8189294	Cloacal swab	Australia	Wild
+SRR8189295	Cloacal swab	Australia	Wild
+SRR8189296	Mixed type libs	Australia	Wild
+SRR8189297	Mixed type libs	Australia	Wild
+SRR8189298	Mixed type libs	Australia	Wild
+SRR8189299	Mixed type libs	Australia	Wild
+SRR8189300	Cloacal swab	Australia	Wild
+SRR8189301	Cloacal swab	Australia	Wild
+SRR8189302	Mixed type libs	Australia	Wild
+SRR31264312	Fecal samples	Brazil	Wild
+CRR1001657	Fecal samples	China	Wild
+CRR1001658	Fecal samples	China	Wild
+CRR1001662	Fecal samples	China	Wild
+CRR1001663	Fecal samples	China	Wild
+CRR1001664	Fecal samples	China	Wild
+CRR1001665	Fecal samples	China	Wild
+CRR1001666	Fecal samples	China	Wild
+CRR1001667	Fecal samples	China	Wild
+CRR1001668	Fecal samples	China	Wild
+CRR1001669	Fecal samples	China	Wild
+CRR1001670	Fecal samples	China	Wild
+CRR1001671	Fecal samples	China	Wild
+CRR1001672	Fecal samples	China	Wild
+CRR1001673	Fecal samples	China	Wild
+CRR1001674	Fecal samples	China	Wild
+CRR1001675	Fecal samples	China	Wild
+CRR1001676	Fecal samples	China	Wild
+CRR1001677	Fecal samples	China	Wild
+CRR1001678	Fecal samples	China	Wild
+CRR1001679	Fecal samples	China	Wild
+CRR1001680	Fecal samples	China	Wild
+CRR1001681	Fecal samples	China	Wild
+CRR1001682	Fecal samples	China	Wild
+CRR1001683	Fecal samples	China	Wild
+CRR1001684	Fecal samples	China	Wild
+CRR1001685	Fecal samples	China	Wild
+CRR1001686	Fecal samples	China	Wild
+CRR1001695	Fecal samples	China	Wild
+CRR1001696	Fecal samples	China	Wild
+CRR1001697	Fecal samples	China	Wild
+CRR1001698	Fecal samples	China	Wild
+CRR1001699	Fecal samples	China	Wild
+CRR1001700	Fecal samples	China	Wild
+CRR1001701	Fecal samples	China	Wild
+CRR1001702	Fecal samples	China	Wild
+CRR1001703	Fecal samples	China	Wild
+CRR1001704	Fecal samples	China	Wild
+CRR1001705	Fecal samples	China	Wild
+CRR1001706	Fecal samples	China	Wild
+CRR1001707	Fecal samples	China	Wild
+CRR1259743	Fecal samples	China	Wild
+CRR1259744	Fecal samples	China	Wild
+CRR1259745	Fecal samples	China	Wild
+CRR1259746	Fecal samples	China	Wild
+CRR1259751	Fecal samples	China	Wild
+CRR1259752	Fecal samples	China	Wild
+CRR1259753	Fecal samples	China	Wild
+CRR1259754	Fecal samples	China	Wild
+CRR1259755	Fecal samples	China	Wild
+CRR1259758	Fecal samples	China	Wild
+CRR1259761	Fecal samples	China	Wild
+CRR1259762	Fecal samples	China	Wild
+CRR1259763	Fecal samples	China	Wild
+CRR1259764	Fecal samples	China	Wild
+CRR1259765	Fecal samples	China	Wild
+CRR1259766	Fecal samples	China	Wild
+CRR1259767	Fecal samples	China	Wild
+CRR1259768	Fecal samples	China	Wild
+CRR1259769	Fecal samples	China	Wild
+CRR1259770	Fecal samples	China	Wild
+CRR1259771	Fecal samples	China	Wild
+CRR1259772	Fecal samples	China	Wild
+CRR1259773	Fecal samples	China	Wild
+CRR1259774	Fecal samples	China	Wild
+CRR1259775	Fecal samples	China	Wild
+CRR1259778	Fecal samples	China	Wild
+CRR1259779	Fecal samples	China	Wild
+CRR1259780	Fecal samples	China	Wild
+CRR1259781	Fecal samples	China	Wild
+CRR1259782	Fecal samples	China	Wild
+CRR1259786	Fecal samples	China	Wild
+CRR1259787	Fecal samples	China	Wild
+CRR1259788	Fecal samples	China	Wild
+CRR1259789	Fecal samples	China	Wild
+CRR1259790	Fecal samples	China	Wild
+CRR1259791	Fecal samples	China	Wild
+CRR1259792	Fecal samples	China	Wild
+CRR1259793	Fecal samples	China	Wild
+CRR1259794	Fecal samples	China	Wild
+CRR1259795	Fecal samples	China	Wild
+CRR1259796	Fecal samples	China	Wild
+CRR1259797	Fecal samples	China	Wild
+CRR1259798	Fecal samples	China	Wild
+CRR1259799	Fecal samples	China	Wild
+CRR1259800	Fecal samples	China	Wild
+CRR1259801	Fecal samples	China	Wild
+CRR1259802	Fecal samples	China	Wild
+CRR1259803	Fecal samples	China	Wild
+CRR1259804	Fecal samples	China	Wild
+CRR1259805	Fecal samples	China	Wild
+CRR1259806	Fecal samples	China	Wild
+CRR1259807	Fecal samples	China	Wild
+CRR1259808	Fecal samples	China	Wild
+CRR1259809	Fecal samples	China	Wild
+CRR1259810	Fecal samples	China	Wild
+CRR1259811	Fecal samples	China	Wild
+CRR1259812	Fecal samples	China	Wild
+CRR1259813	Fecal samples	China	Wild
+CRR1259814	Fecal samples	China	Wild
+CRR1259815	Fecal samples	China	Wild
+CRR1259816	Fecal samples	China	Wild
+CRR1259817	Fecal samples	China	Wild
+CRR1259818	Fecal samples	China	Wild
+CRR1259819	Fecal samples	China	Wild
+CRR1259820	Fecal samples	China	Wild
+CRR1259821	Fecal samples	China	Wild
+CRR1259822	Fecal samples	China	Wild
+CRR1259823	Fecal samples	China	Wild
+CRR1259824	Fecal samples	China	Wild
+CRR1259825	Fecal samples	China	Wild
+CRR1259826	Fecal samples	China	Wild
+CRR1259827	Fecal samples	China	Wild
+CRR1259828	Fecal samples	China	Wild
+CRR1259829	Fecal samples	China	Wild
+CRR1259847	Fecal samples	China	Wild
+CRR1259848	Fecal samples	China	Wild
+CRR1259849	Fecal samples	China	Wild
+CRR1259850	Fecal samples	China	Wild
+CRR1259851	Fecal samples	China	Wild
+CRR1259852	Fecal samples	China	Wild
+CRR1259853	Fecal samples	China	Wild
+CRR1259854	Fecal samples	China	Wild
+CRR1259855	Fecal samples	China	Wild
+CRR1259856	Fecal samples	China	Wild
+CRR1259857	Fecal samples	China	Wild
+CRR1259858	Fecal samples	China	Wild
+CRR1259859	Fecal samples	China	Wild
+CRR1259860	Fecal samples	China	Wild
+CRR1259861	Fecal samples	China	Wild
+CRR1259862	Fecal samples	China	Wild
+CRR1259863	Fecal samples	China	Wild
+CRR1259864	Fecal samples	China	Wild
+CRR1259865	Fecal samples	China	Wild
+CRR1259866	Fecal samples	China	Wild
+CRR1259867	Fecal samples	China	Wild
+CRR1259868	Fecal samples	China	Wild
+CRR1259869	Fecal samples	China	Wild
+CRR1259870	Fecal samples	China	Wild
+CRR1259874	Fecal samples	China	Wild
+CRR1259875	Fecal samples	China	Wild
+CRR1259876	Fecal samples	China	Wild
+CRR1259877	Fecal samples	China	Wild
+CRR1259878	Fecal samples	China	Wild
+CRR1259879	Fecal samples	China	Wild
+L-230716_1_RNA	Lung	China	Domestic
+L-230716_2_RNA	Lung	China	Domestic
+L-230716_3_RNA	Liver	China	Domestic
+L-230716_4_RNA	Lung	China	Domestic
+SRR13847390	Fecal samples	China	Wild
+SRR13857276	Fecal samples	China	Wild
+SRR25100770	Mixed type libs	China	Domestic
+SRR25100771	Mixed type libs	China	Domestic
+SRR25100772	Mixed type libs	China	Domestic
+SRR25100773	Mixed type libs	China	Domestic
+SRR25100774	Mixed type libs	China	Domestic
+SRR25100775	Mixed type libs	China	Domestic
+SRR27428161	Cecal content	China	Domestic
+SRR27428162	Cecal content	China	Domestic
+SRR27428163	Cecal content	China	Domestic
+SRR27428164	Cecal content	China	Domestic
+SRR27428165	Cecal content	China	Domestic
+SRR27428166	Cecal content	China	Domestic
+SRR27428167	Cecal content	China	Domestic
+SRR27428168	Cecal content	China	Domestic
+SRR27428169	Cecal content	China	Domestic
+SRR27428170	Cecal content	China	Domestic
+SRR27428171	Cecal content	China	Domestic
+SRR27428172	Cecal content	China	Domestic
+SRR27462178	Fecal samples	China	Wild
+SRR27462179	Fecal samples	China	Wild
+SRR27462180	Fecal samples	China	Wild
+SRR31509664	Heart	China	Wild
+SRR31509665	Spleen	China	Wild
+SRR31509666	Kidney	China	Wild
+SRR31509667	Liver	China	Wild
+SRR31509668	Mixed type libs	China	Wild
+SRR31509669	Mixed type libs	China	Wild
+SRR31509670	Mixed type libs	China	Wild
+SRR31509671	Oral swab	China	Wild
+SRR31509672	Lung	China	Wild
+SRR31509673	Intestine	China	Wild
+SRR31509674	Mixed type libs	China	Wild
+SRR31509675	Mixed type libs	China	Wild
+SRR34855210	Cecal content	China	Domestic
+SRR34855211	Cecal content	China	Domestic
+SRR34855212	Cecal content	China	Domestic
+SRR34855213	Cecal content	China	Domestic
+SRR34855214	Cecal content	China	Domestic
+SRR34855215	Cecal content	China	Domestic
+SRR34855216	Cecal content	China	Domestic
+SRR34855217	Cecal content	China	Domestic
+SRR34855218	Cecal content	China	Domestic
+SRR34855219	Cecal content	China	Domestic
+SRR34855220	Cecal content	China	Domestic
+SRR34855221	Cecal content	China	Domestic
+SRR34855222	Cecal content	China	Domestic
+SRR34855223	Cecal content	China	Domestic
+SRR34855224	Cecal content	China	Domestic
+SRR34855225	Cecal content	China	Domestic
+SRR34855226	Cecal content	China	Domestic
+SRR34855227	Cecal content	China	Domestic
+SRR34855228	Cecal content	China	Domestic
+SRR34855229	Cecal content	China	Domestic
+ERR441000	Mixed type libs	Germany	Wild
+ERR441001	Feathers	Germany	Wild
+ERR441002	Feathers	Germany	Wild
+ERR441003	Blood	Germany	Wild
+SRR18668748	Cloacal swab	New Zealand	Wild
+SRR18668749	Cloacal swab	New Zealand	Wild
+SRR18668750	Cloacal swab	New Zealand	Wild
+SRR18668751	Cloacal swab	New Zealand	Wild
+SRR18668752	Cloacal swab	New Zealand	Wild
+SRR18668753	Cloacal swab	New Zealand	Wild
+SRR18668754	Cloacal swab	New Zealand	Wild
+SRR18668755	Cloacal swab	New Zealand	Wild
+SRR18668756	Cloacal swab	New Zealand	Wild
+SRR18668757	Cloacal swab	New Zealand	Wild
+SRR18668758	Cloacal swab	New Zealand	Wild
+SRR18668759	Cloacal swab	New Zealand	Wild
+SRR20006554	Cloacal swab	New Zealand	Wild
+SRR20006555	Cloacal swab	New Zealand	Wild
+SRR20006556	Cloacal swab	New Zealand	Wild
+SRR20006557	Cloacal swab	New Zealand	Wild
+SRR20006558	Cloacal swab	New Zealand	Wild
+SRR20006559	Cloacal swab	New Zealand	Wild
+SRR20006560	Cloacal swab	New Zealand	Wild
+SRR20006561	Cloacal swab	New Zealand	Wild
+SRR20006562	Cloacal swab	New Zealand	Wild
+SRR21676445	Cloacal swab	New Zealand	Wild
+SRR21676446	Cloacal swab	New Zealand	Wild
+SRR21676447	Cloacal swab	New Zealand	Wild
+SRR21676448	Cloacal swab	New Zealand	Wild
+SRR21676449	Cloacal swab	New Zealand	Wild
+SRR21676459	Cloacal swab	New Zealand	Wild
+SRR21676470	Cloacal swab	New Zealand	Wild
+SRR21676481	Cloacal swab	New Zealand	Wild
+SRR21676483	Cloacal swab	New Zealand	Wild
+SRR21676485	Cloacal swab	New Zealand	Wild
+SRR21676486	Cloacal swab	New Zealand	Wild
+SRR21676487	Cloacal swab	New Zealand	Wild
+SRR21676488	Cloacal swab	New Zealand	Wild
+SRR21676489	Cloacal swab	New Zealand	Wild
+SRR21676490	Cloacal swab	New Zealand	Wild
+SRR21676491	Cloacal swab	New Zealand	Wild
+SRR21676492	Cloacal swab	New Zealand	Wild
+SRR21676493	Cloacal swab	New Zealand	Wild
+SRR26222415	Mixed type libs	New Zealand	Wild
+SRR26222416	Mixed type libs	New Zealand	Wild
+SRR26222417	Mixed type libs	New Zealand	Wild
+SRR26222418	Mixed type libs	New Zealand	Wild
+SRR26222419	Mixed type libs	New Zealand	Wild
+SRR26222420	Mixed type libs	New Zealand	Wild
+SRR26222421	Mixed type libs	New Zealand	Wild
+SRR26222422	Mixed type libs	New Zealand	Wild
+SRR26222423	Mixed type libs	New Zealand	Wild
+SRR26222424	Mixed type libs	New Zealand	Wild
+SRR26222425	Mixed type libs	New Zealand	Wild
+SRR26222426	Mixed type libs	New Zealand	Wild
+SRR26222427	Mixed type libs	New Zealand	Wild
+SRR26222428	Mixed type libs	New Zealand	Wild
+SRR26222429	Mixed type libs	New Zealand	Wild
+SRR26222430	Mixed type libs	New Zealand	Wild
+SRR26222431	Mixed type libs	New Zealand	Wild
+SRR26222432	Mixed type libs	New Zealand	Wild
+SRR26222433	Mixed type libs	New Zealand	Wild
+SRR29752122	Cloacal swab	New Zealand	Wild
+SRR29752123	Fecal samples	New Zealand	Wild
+SRR29752124	Fecal samples	New Zealand	Wild
+SRR29752125	Fecal samples	New Zealand	Wild
+SRR29752126	Fecal samples	New Zealand	Wild
+SRR29752127	Fecal samples	New Zealand	Wild
+SRR29752128	Fecal samples	New Zealand	Wild
+SRR29752129	Fecal samples	New Zealand	Wild
+SRR29752133	Cloacal swab	New Zealand	Wild
+SRR29752134	Cloacal swab	New Zealand	Wild
+SRR29752135	Cloacal swab	New Zealand	Wild
+SRR29752136	Fecal samples	New Zealand	Wild
+SRR29752137	Fecal samples	New Zealand	Wild
+SRR31383106	Lesion	New Zealand	Wild
+SRR31383107	Cloacal swab	New Zealand	Wild
+SRR31383108	Lesion	New Zealand	Wild
+SRR31383109	Cloacal swab	New Zealand	Wild
+SRR31383110	Lesion	New Zealand	Wild
+SRR31383111	Cloacal swab	New Zealand	Wild
+SRR31383112	Cloacal swab	New Zealand	Wild
+SRR31383113	Cloacal swab	New Zealand	Wild
+SRR31383114	Cloacal swab	New Zealand	Wild
+SRR31383115	Cloacal swab	New Zealand	Wild
+SRR31383116	Cloacal swab	New Zealand	Wild
+SRR31383117	Cloacal swab	New Zealand	Wild
+SRR31383118	Cloacal swab	New Zealand	Wild
+SRR31383119	Cloacal swab	New Zealand	Wild
+SRR31383120	Cloacal swab	New Zealand	Wild
+SRR31383121	Cloacal swab	New Zealand	Wild
+SRR31383122	Cloacal swab	New Zealand	Wild
+SRR31383123	Cloacal swab	New Zealand	Wild
+SRR31383124	Cloacal swab	New Zealand	Wild
+SRR31383125	Cloacal swab	New Zealand	Wild
+SRR31383126	Cloacal swab	New Zealand	Wild
+SRR31383127	Lesion	New Zealand	Wild
+SRR31383128	Cloacal swab	New Zealand	Wild
+SRR31383129	Cloacal swab	New Zealand	Wild
+SRR31383130	Cloacal swab	New Zealand	Wild
+SRR31383131	Cloacal swab	New Zealand	Wild
+SRR31383132	Cloacal swab	New Zealand	Wild
+SRR31383133	Lesion	New Zealand	Wild
+SRR31383134	Cloacal swab	New Zealand	Wild
+SRR31383135	Lesion	New Zealand	Wild
+SRR31383136	Cloacal swab	New Zealand	Wild
+SRR31383137	Cloacal swab	New Zealand	Wild
+SRR31383138	Cloacal swab	New Zealand	Wild
+SRR31383139	Lesion	New Zealand	Wild
+SRR21527942	Fecal samples	the United States	Domestic
+SRR21527959	Fecal samples	the United States	Domestic
+SRR21527960	Fecal samples	the United States	Domestic
+SRR21527961	Fecal samples	the United States	Domestic
+SRR21527962	Fecal samples	the United States	Domestic
+SRR21527963	Fecal samples	the United States	Domestic
+SRR21527964	Fecal samples	the United States	Domestic
+SRR21527965	Fecal samples	the United States	Domestic
+SRR21527966	Fecal samples	the United States	Domestic
+SRR30664529	Cecal content	the United States	Wild
+SRR8792701	Blood	the United States	Wild
+SRR8792702	Blood	the United States	Wild
+SRR8792703	Blood	the United States	Wild
+SRR8792704	Blood	the United States	Wild
+SRR8792705	Blood	the United States	Wild
+SRR8792706	Blood	the United States	Wild
+SRR8792707	Blood	the United States	Wild
+SRR8792708	Blood	the United States	Wild
+SRR8792709	Blood	the United States	Wild
+SRR8792710	Blood	the United States	Wild
+SRR8792711	Blood	the United States	Wild
+SRR8792712	Blood	the United States	Wild
+SRR8792713	Blood	the United States	Wild
+SRR8792714	Blood	the United States	Wild
+SRR8792715	Blood	the United States	Wild
+SRR8792716	Blood	the United States	Wild
+SRR8792717	Blood	the United States	Wild
+SRR8792718	Blood	the United States	Wild
+SRR8792719	Blood	the United States	Wild
+SRR8792720	Blood	the United States	Wild
+SRR8792721	Blood	the United States	Wild
+SRR8792722	Blood	the United States	Wild
+SRR8792723	Liver	the United States	Wild
+SRR8792724	Blood	the United States	Wild
+SRR8792725	Blood	the United States	Wild

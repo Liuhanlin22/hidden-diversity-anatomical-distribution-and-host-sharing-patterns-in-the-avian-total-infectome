@@ -1,0 +1,4 @@
+"analysis","eligible_groups","sample_type","libraries_per_group","curve_replicates","presence_rule"
+"Wild-domestic","Wild; Domestic","Fecal samples",9,1000,"abundance > 0"
+"Host order","Charadriiformes; Psittaciformes; Anseriformes","Fecal samples",9,1000,"abundance > 0"
+"Geography","China; New Zealand; the United States","Fecal samples",9,1000,"abundance > 0"
