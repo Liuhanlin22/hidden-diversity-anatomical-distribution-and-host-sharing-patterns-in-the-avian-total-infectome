@@ -1,10 +1,10 @@
 # Wildbird infectome figure code and data
 
-This directory contains the scripts, tabular inputs, quality-control summaries, and derived outputs used to generate the main and supplementary figures of the wildbird infectome study.
+This repository contains the scripts, tabular inputs, metadata, quality-control summaries, and derived outputs used to generate the main and supplementary figures of the wildbird infectome study.
 
 ## Directory map
 
-| Figure set | Main analysis | Primary script or scripts |
+| Figure set | Main analysis | Directory |
 |---|---|---|
 | Figure 1 | Sampling map, host metadata, and host phylogeny | `Figure1/` |
 | Figure 4 | Novelty summaries, family counts, heatmap, and depth plots | `Figure4/` |
@@ -18,7 +18,7 @@ This directory contains the scripts, tabular inputs, quality-control summaries, 
 
 ## Reproducibility
 
-The repository root is this `data_Figures` directory. Run each script from its own figure directory, or execute it with `Rscript` using the script path. The current scripts use relative paths based on the script directory where supported.
+This repository contains the contents prepared in the `data_Figures` directory. Run each script from its corresponding figure directory. The scripts use relative paths based on the script directory where supported.
 
 Examples:
 
@@ -31,50 +31,3 @@ Rscript FigureS3_brain_depth_with_annotations.R
 
 cd ../FigureS5
 Rscript FigureS5_rarefaction_tSNE.R
-```
-
-The FigureS2B Python script can be run as follows:
-
-```bash
-cd FigureS2/FigureS2B
-python 00_stacked_barplot.py
-```
-
-## GitHub Desktop upload
-
-This directory can be uploaded as a local GitHub repository using GitHub Desktop:
-
-1. Create an empty repository on GitHub. Do not initialize it with a README, `.gitignore`, or license.
-2. In GitHub Desktop, select **File > Add local repository**.
-3. Choose this `data_Figures` directory as the local repository. If GitHub Desktop reports that it is not a repository, choose **Create a repository** and use this directory as the local path.
-4. Review the changed files, enter a commit message such as `Add reproducible figure code and metadata`, and select **Commit to main**.
-5. Select **Publish repository** or **Push origin**. Use a public repository only when the sequence and metadata release has been approved.
-
-The five final supplementary metadata files are stored in `metadata/`:
-
-- `Supplement_Table1_project_info.xlsx`: project-level information.
-- `Supplement_Table2_libs_hosts_qc_info.xlsx`: library, host, location, and QC information.
-- `Supplement_Table3_library_info.xlsx`: library-level information.
-- `Supplement_Table4_pathogen_annot_updated_ICTV.xlsx`: pathogen annotation, ICTV classification, host-range, reference, and phylogenetic information.
-- `Supplement_Table5_pathogen_profiles.xlsx`: pathogen profile and abundance information.
-
-The five metadata workbooks were checked for Chinese characters and none were found. Before publishing, verify that they contain no private identifiers or restricted information.
-
-## R packages
-
-Depending on the figure, the analyses use the following R packages:
-
-`ggplot2`, `ggnewscale`, `gggenes`, `grid`, `gridExtra`, `igraph`, `maps`, `openxlsx`, `patchwork`, `pheatmap`, `readxl`, `Rtsne`, `scatterpie`, `tidyverse`, `vegan`, `permute`, and `circlize`.
-
-## Python packages
-
-The Python plotting script requires:
-
-`pandas`, `matplotlib`, and `seaborn`.
-
-## Input and output conventions
-
-- Files ending in `_input`, `_annot`, `_metadata`, `_matrix`, or `_table` are analysis inputs or input annotations.
-- Files ending in `_summary`, `_statistics`, `_coordinates`, `_audit`, or `_results` are derived QC or analysis outputs.
-- PDF and PNG files are rendered figure outputs.
-- Raw sequencing reads, BAM files, external databases, and upstream profiling tables are not duplicated in this directory. When an analysis depends on an upstream file outside this directory, the audit file records a relative source path or the source is described in the corresponding figure README.
