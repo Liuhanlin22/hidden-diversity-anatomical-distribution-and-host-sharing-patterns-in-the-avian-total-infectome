@@ -11,8 +11,8 @@ This repository contains the scripts, tabular inputs, metadata, quality-control 
 | Figure 5 | Tissue landscape, systemic infection heatmap, and t-SNE | `Figure5/` |
 | Figure 6 | Geographic distribution, host-order network, host range, and wild-domestic transmission | `Figure6/` |
 | Figure S2 | Quality-control summaries and taxonomic composition | `FigureS2/` |
-| Figure S3 | Brain-associated viral read-depth and gene-annotation plots | `FigureS3/` |
-| Figure S4 | Library-based rarefaction and diversity analysis | `FigureS4/` |
+| Figure S3 | Library-based rarefaction and diversity analysis | `FigureS3/` |
+| Figure S4 | Brain-associated viral read-depth and gene-annotation plots | `FigureS4/` |
 | Figure S5 | Sampling-effort rarefaction and matched t-SNE panels | `FigureS5/` |
 | Metadata | Project, library, pathogen, and profile metadata | `metadata/` |
 
@@ -27,7 +27,10 @@ cd Figure5/figure5C
 Rscript Figure5C_tSNE.R
 
 cd ../../FigureS3
-Rscript FigureS3_brain_depth_with_annotations.R
+Rscript FigureS3_rarefaction.R
+
+cd ../FigureS4
+Rscript FigureS4_brain_depth_with_annotations.R
 
 cd ../FigureS5
 Rscript FigureS5_rarefaction_tSNE.R

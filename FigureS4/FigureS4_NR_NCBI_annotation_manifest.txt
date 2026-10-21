@@ -1,5 +1,5 @@
-Figure S3 NCBI NR BLASTP annotation
-Source XML: FigureS3_NR_NCBI_blastp_DBGJ83N3016.xml
+Figure S4 NCBI NR BLASTP annotation
+Source XML: FigureS4_NR_NCBI_blastp_DBGJ83N3016.xml
 Request ID: DBGJ83N3016
 Program: blastp
 Database: nr
@@ -10,4 +10,4 @@ Reported hit rows parsed: 700
 Annotation rule: rank-1 reported NR hit per ORF; HSP metrics are aggregated across HSPs.
 Coverage: union of query-coordinate HSP intervals divided by the NCBI query length.
 Interpretation: products are putative NR-supported homology annotations, not definitive gene calls.
-The no-hit ORF is retained in FigureS3_NR_NCBI_best_hits.tsv and omitted from annotation segments.
+The no-hit ORF is retained in FigureS4_NR_NCBI_best_hits.tsv and omitted from annotation segments.

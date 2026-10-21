@@ -1,5 +1,5 @@
-# Figure S4 rarefaction and diversity analysis.
-# Inputs: FigureS4_libs_annot.xlsx and FigureS4_virus_table_filtered.csv.
+# Figure S3 rarefaction and diversity analysis.
+# Inputs: FigureS3_libs_annot.xlsx and FigureS3_virus_table_filtered.csv.
 
 if (!requireNamespace("readxl", quietly = TRUE)) {
   stop("Package 'readxl' is required. Install it with install.packages('readxl').")
@@ -12,8 +12,8 @@ script_dir <- if (!is.null(script_file) && nzchar(script_file)) {
   normalizePath(getwd(), winslash = "/", mustWork = TRUE)
 }
 input_dir <- script_dir
-annotation_file <- file.path(input_dir, "FigureS4_libs_annot.xlsx")
-abundance_file <- file.path(input_dir, "FigureS4_virus_table_filtered.csv")
+annotation_file <- file.path(input_dir, "FigureS3_libs_annot.xlsx")
+abundance_file <- file.path(input_dir, "FigureS3_virus_table_filtered.csv")
 
 SEED <- 20260902L
 N_ITER <- 10000L
@@ -98,7 +98,7 @@ if (any(false_positive_cells$abundance_after_filter != 0)) {
 }
 write.csv(
   false_positive_cells,
-  file.path(script_dir, "FigureS4_false_positive_qc.csv"),
+  file.path(script_dir, "FigureS3_false_positive_qc.csv"),
   row.names = FALSE
 )
 
@@ -306,19 +306,19 @@ for (category in names(category_ids)) {
 category_curves <- do.call(rbind, category_rows)
 category_draws <- do.call(rbind, category_draw_rows)
 
-write.csv(overview, file.path(script_dir, "FigureS4_sample_type_overview_R.csv"), row.names = FALSE)
-write.csv(type_summary, file.path(script_dir, "FigureS4_rarefaction_n5_summary_R.csv"), row.names = FALSE)
-write.csv(curves, file.path(script_dir, "FigureS4_rarefaction_curve_summary_by_sample_type_R.csv"), row.names = FALSE)
-write.csv(n5_draws, file.path(script_dir, "FigureS4_rarefaction_draws_n5_R.csv"), row.names = FALSE)
-write.csv(category_curves, file.path(script_dir, "FigureS4_rarefaction_curve_summary_by_anatomical_class_R.csv"), row.names = FALSE)
-write.csv(category_draws, file.path(script_dir, "FigureS4_rarefaction_draws_matched_anatomical_class_R.csv"), row.names = FALSE)
+write.csv(overview, file.path(script_dir, "FigureS3_sample_type_overview_R.csv"), row.names = FALSE)
+write.csv(type_summary, file.path(script_dir, "FigureS3_rarefaction_n5_summary_R.csv"), row.names = FALSE)
+write.csv(curves, file.path(script_dir, "FigureS3_rarefaction_curve_summary_by_sample_type_R.csv"), row.names = FALSE)
+write.csv(n5_draws, file.path(script_dir, "FigureS3_rarefaction_draws_n5_R.csv"), row.names = FALSE)
+write.csv(category_curves, file.path(script_dir, "FigureS3_rarefaction_curve_summary_by_anatomical_class_R.csv"), row.names = FALSE)
+write.csv(category_draws, file.path(script_dir, "FigureS3_rarefaction_draws_matched_anatomical_class_R.csv"), row.names = FALSE)
 
 matched_summary <- category_curves[
   category_curves$metric == "Taxonomic richness" &
     category_curves$rarefaction_depth == category_depth, ,
   drop = FALSE
 ]
-write.csv(matched_summary, file.path(script_dir, "FigureS4_matched_anatomical_class_summary_R.csv"), row.names = FALSE)
+write.csv(matched_summary, file.path(script_dir, "FigureS3_matched_anatomical_class_summary_R.csv"), row.names = FALSE)
 
 grid_col <- "#D9D9D9"
 point_colors <- unname(CLASS_COLORS[type_summary$anatomical_class])
@@ -418,17 +418,17 @@ draw_figure <- function() {
 
 }
 
-pdf_file <- file.path(script_dir, "Figure_S4_rarefaction_R.pdf")
+pdf_file <- file.path(script_dir, "Figure_S3_rarefaction_R.pdf")
 grDevices::pdf(pdf_file, width = 7.2, height = 6.7, useDingbats = FALSE)
 draw_figure()
 grDevices::dev.off()
 
-png_file <- file.path(script_dir, "Figure_S4_rarefaction_R.png")
+png_file <- file.path(script_dir, "Figure_S3_rarefaction_R.png")
 grDevices::png(png_file, width = 2160, height = 2010, res = 300, type = "cairo")
 draw_figure()
 grDevices::dev.off()
 
-tif_file <- file.path(script_dir, "Figure_S4_rarefaction_R.tif")
+tif_file <- file.path(script_dir, "Figure_S3_rarefaction_R.tif")
 grDevices::tiff(tif_file, width = 4320, height = 4020, res = 600, compression = "lzw")
 draw_figure()
 grDevices::dev.off()

@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-# Figure S3: brain-positive depth profiles with NR-supported protein
+# Figure S4: brain-positive depth profiles with NR-supported protein
 # annotation tracks.  The protein tracks use gggenes and share the same
 # nucleotide coordinate system as the depth profiles.
 
@@ -44,12 +44,12 @@ input_dir <- get_arg("input-dir", script_dir)
 outdir <- get_arg("outdir", script_dir)
 dir.create(outdir, recursive = TRUE, showWarnings = FALSE)
 
-summary_file <- file.path(input_dir, "FigureS3_brain_depth_summary.tsv")
-normalization_file <- file.path(input_dir, "FigureS3_library_normalization.tsv")
-targets_file <- file.path(input_dir, "FigureS3_four_reference_targets.tsv")
+summary_file <- file.path(input_dir, "FigureS4_brain_depth_summary.tsv")
+normalization_file <- file.path(input_dir, "FigureS4_library_normalization.tsv")
+targets_file <- file.path(input_dir, "FigureS4_four_reference_targets.tsv")
 annotation_file <- file.path(
   input_dir,
-  "FigureS3_NR_NCBI_annotation_segments_for_plot.tsv"
+  "FigureS4_NR_NCBI_annotation_segments_for_plot.tsv"
 )
 
 for (required_file in c(
@@ -65,7 +65,7 @@ for (required_file in c(
 
 depth_dir <- file.path(input_dir, "depth")
 if (!dir.exists(depth_dir)) {
-  # The downloaded files may be placed directly in FigureS3.
+  # The downloaded files may be placed directly in FigureS4.
   depth_dir <- input_dir
 }
 
@@ -449,12 +449,12 @@ render_combined <- function(filename, device_fun, width, height, res = NULL) {
   grDevices::dev.off()
 }
 
-pdf_file <- file.path(outdir, "FigureS3_brain_depth_with_NR_annotations.pdf")
-png_file <- file.path(outdir, "FigureS3_brain_depth_with_NR_annotations.png")
+pdf_file <- file.path(outdir, "FigureS4_brain_depth_with_NR_annotations.pdf")
+png_file <- file.path(outdir, "FigureS4_brain_depth_with_NR_annotations.png")
 
 render_combined(pdf_file, grDevices::cairo_pdf, width = 10, height = 8.05)
 render_combined(png_file, grDevices::png, width = 10, height = 8.05, res = 600)
 
-message("FigureS3 depth + gggenes annotation visualization completed: ", outdir)
+message("FigureS4 depth + gggenes annotation visualization completed: ", outdir)
 message("PDF: ", pdf_file)
 message("PNG: ", png_file)
