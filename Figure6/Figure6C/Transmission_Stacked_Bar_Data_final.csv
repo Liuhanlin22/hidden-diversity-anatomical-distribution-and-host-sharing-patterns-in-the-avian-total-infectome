@@ -1,6 +1,7 @@
 Transmission_Level,k__Bacteria,k__Eukaryota,k__Viruses
-Within-species,0,10,351
-Cross-species,0,0,10
-Cross-genus,0,1,1
-Cross-family,0,6,13
-Cross-order,8,9,51
+Within-species,0,10,354
+Cross-species,0,0,7
+Cross-genus,0,1,2
+Cross-family,0,6,14
+Cross-order,8,9,43
+Unresolved host assignment,0,0,6

@@ -37,7 +37,19 @@ level_order <- c(
   "Cross-family",
   "Cross-order"
 )
+plot_labels <- c(
+  "Within-species",
+  "Cross-species",
+  "Cross-genus",
+  "Cross-family",
+  "Cross-order"
+)
 stack_order <- c("k__Viruses", "k__Bacteria", "k__Eukaryota")
+
+if (sum(as.matrix(summary_data[, stack_order])) != 460) {
+  stop("Figure6C input must represent 460 unique species.")
+}
+
 class_labels <- c(
   "k__Viruses" = "Virus",
   "k__Bacteria" = "Bacteria",
@@ -55,10 +67,6 @@ summary_data$Transmission_Level <- factor(
 )
 summary_data <- summary_data[!is.na(summary_data$Transmission_Level), , drop = FALSE]
 summary_data <- summary_data[order(summary_data$Transmission_Level), , drop = FALSE]
-
-if (sum(as.matrix(summary_data[, stack_order])) != 460) {
-  stop("Figure6C input must represent 460 unique species.")
-}
 
 plot_data <- do.call(rbind, lapply(seq_len(nrow(summary_data)), function(i) {
   data.frame(
@@ -105,7 +113,7 @@ transmission_plot <- ggplot(plot_data) +
   ) +
   scale_x_continuous(
     breaks = seq_along(level_order),
-    labels = level_order,
+    labels = plot_labels,
     limits = c(0.45, length(level_order) + 0.55),
     minor_breaks = NULL,
     expand = c(0, 0)

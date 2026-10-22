@@ -48,6 +48,10 @@ plot_species[plot_species %in% c(
   "Streptococcus suis (strain avian group)",
   "Streptococcus suis (strain pig group)"
 )] <- "Streptococcus suis"
+plot_species[grepl(
+  "^Alphainfluenzavirus influenzae \\(",
+  plot_species
+)] <- "Alphainfluenzavirus influenzae"
 
 presence_data <- data.frame(
   species_name = plot_species,
