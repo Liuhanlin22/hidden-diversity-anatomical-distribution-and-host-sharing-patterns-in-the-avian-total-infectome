@@ -1,4 +1,4 @@
 "test","block","grouping","n","n_blocks","permutations","F","p_value","status"
-"PERMDISP","unblocked","Sample_Type",283,NA,999,14.4369449477112,0.001,"ok"
-"PERMDISP","Block_Order","Sample_Type",283,13,999,14.4369449477112,0.001,"ok"
-"PERMDISP","Block_Location","Sample_Type",283,7,999,14.4369449477112,0.001,"ok"
+"PERMDISP","unblocked","Sample_Type",331,NA,999,3.39769287568377,0.001,"ok"
+"PERMDISP","Block_Order","Sample_Type",331,15,999,3.39769287568377,0.299,"ok"
+"PERMDISP","Block_Location","Sample_Type",331,7,999,3.39769287568377,0.011,"ok"

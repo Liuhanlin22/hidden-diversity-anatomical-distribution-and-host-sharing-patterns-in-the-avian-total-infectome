@@ -1,3 +1,3 @@
 "metric","value","interpretation"
-"final_tSNE_KL_divergence",0.555410850256418,"Rtsne final optimization objective; not NMDS stress"
-"final_tSNE_KL_divergence_per_library",0.00196258250973999,"Final t-SNE KL divergence divided by the number of libraries"
+"final_tSNE_KL_divergence",0.491419444667023,"Rtsne final optimization objective; not NMDS stress"
+"final_tSNE_KL_divergence_per_library",0.0014846508902327,"Final t-SNE KL divergence divided by the number of libraries"
