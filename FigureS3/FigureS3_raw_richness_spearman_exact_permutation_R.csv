@@ -1,0 +1,2 @@
+"n_sample_types","spearman_rho","p_value_two_sided_exact","extreme_permutations","total_permutations","test","sample_types"
+9,0.919223842025064,0.0013723544973545,498,362880,"Exact two-sided permutation test of Spearman rank correlation","Blood; Brain; Cecal content; Cloacal swab; Fecal samples; Intestine; Lesion; Liver; Lung"
