@@ -1,12 +1,23 @@
-field	value
-source_matrix	../../../data_processing/00_profiling/results_final/Figure6_Table5_compatible_RPM_matrix_469rows.csv
-source_metadata	../../../data_processing/00_profiling/Supplement_Table2_libs_hosts_qc_info.xlsx
-matrix_rows	469
-matrix_library_columns	389
-domestic_libraries	51
-wild_libraries	338
-merged_cross_class_species	22
-aggregation	sum RPM across libraries within Domestic/Wild
-species_merge	Streptococcus suis strain avian/pig group -> Streptococcus suis
-species_name_normalization	Tritrichomonas sp . Avi1 -> Tritrichomonas sp. Avi1
-filter	Domestic > 0 and Wild > 0
+species_name	kindom	Domestic_RPM_sum	Wild_RPM_sum
+Avibacterium paragallinarum	k__Bacteria	52.623632997	3.719945348
+Campylobacter jejuni	k__Bacteria	5.851579222	83.482193356
+Clostridium botulinum	k__Bacteria	10.121615181	63.799103401
+Mycoplasma anserisalpingitidis	k__Bacteria	2.870305637	2.569493817
+Riemerella anatipestifer	k__Bacteria	51.85984514	135.515357587
+Staphylococcus aureus	k__Bacteria	23.389010976	67.305086116
+Streptococcus suis	k__Bacteria	602.229267599	871.627815858
+Vibrio cholerae	k__Bacteria	1.574325047	26.486122004
+Eimeria sp. Avi3	k__Eukaryota	112.477990377	15.06780764
+Sarcoptes scabiei	k__Eukaryota	1.020145556	151.035792798
+Trichomonas sp. Avi1	k__Eukaryota	12383.992414728	23.364559678
+Trichomonas sp. Avi2	k__Eukaryota	1177.459342495	136.995359971
+Tritrichomonas sp. Avi1	k__Eukaryota	7.04411095	2.899855982
+Alphainfluenzavirus influenzae	k__Viruses	137.19572933	3582.553356438
+Avian coronavirus	k__Viruses	5369.635207666	123951.919416134
+Canada goose coronavirus	k__Viruses	890.67095959	676.691288774
+Chicken picornavirus 4	k__Viruses	3456.423767587	15066.14225
+Duck hepatitis B virus	k__Viruses	7.397454647	14.512389588
+Gallivirus sp.	k__Viruses	439.04619411	216.4294281
+Megrivirus A	k__Viruses	71445.494585373	2.386738289
+Megrivirus sp.	k__Viruses	405.865540925	1176.184629
+Sicinivirus A	k__Viruses	124.827576087	2202.100215

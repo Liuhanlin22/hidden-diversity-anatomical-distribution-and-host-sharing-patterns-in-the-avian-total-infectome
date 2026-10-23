@@ -1,10 +1,12 @@
-required_packages <- "igraph"
+required_packages <- c("igraph", "ggplot2", "ggrepel")
 missing_packages <- required_packages[!vapply(required_packages, requireNamespace, logical(1), quietly = TRUE)]
 if (length(missing_packages) > 0) {
   stop("Install required packages before running: ", paste(missing_packages, collapse = ", "))
 }
 
 suppressPackageStartupMessages(library(igraph))
+suppressPackageStartupMessages(library(ggplot2))
+suppressPackageStartupMessages(library(ggrepel))
 
 file_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
 script_dir <- if (length(file_arg) > 0) {
@@ -27,6 +29,16 @@ input_file <- existing_inputs[1]
 data <- read.csv(input_file, check.names = FALSE, stringsAsFactors = FALSE)
 if (ncol(data) < 5 || !all(c("species_name", "kindom") %in% names(data))) {
   stop("The input must contain kindom, species_name, and host-order columns.")
+}
+if (nrow(data) != 60 || anyDuplicated(data$species_name)) {
+  stop("The final Figure6D input must contain 60 unique species-level taxa.")
+}
+if (any(grepl("^Alphainfluenzavirus influenzae \\(", data$species_name)) ||
+    any(data$species_name %in% c(
+      "Streptococcus suis (strain avian group)",
+      "Streptococcus suis (strain pig group)"
+    ))) {
+  stop("Influenza and Streptococcus suis labels must be merged at species level.")
 }
 
 host_cols <- setdiff(names(data)[5:ncol(data)], "pooling")
@@ -60,6 +72,28 @@ if (is.null(edge_list) || nrow(edge_list) == 0) {
 }
 
 edge_list <- unique(edge_list)
+write.csv(
+  edge_list,
+  file.path(script_dir, "Figure6D_network_edges_used.csv"),
+  row.names = FALSE,
+  na = ""
+)
+selection_audit <- data.frame(
+  lib_id = data$lib_id,
+  species_name = data$species_name,
+  positive_host_orders = vapply(seq_len(nrow(data)), function(i) {
+    sum(suppressWarnings(as.numeric(data[i, host_cols])) > 0, na.rm = TRUE)
+  }, integer(1)),
+  selection_reason = ">=2_host_orders",
+  status = "retained",
+  stringsAsFactors = FALSE
+)
+write.csv(
+  selection_audit,
+  file.path(script_dir, "Figure6D_node_selection_audit.csv"),
+  row.names = FALSE,
+  na = ""
+)
 graph_edges <- edge_list[c("Microbe", "Host")]
 names(graph_edges) <- c("from", "to")
 
@@ -91,86 +125,106 @@ rotation_matrix <- matrix(
 )
 network_layout <- network_layout %*% rotation_matrix
 
-node_type <- V(network)$node_type
+node_type <- as.character(V(network)$node_type)
 node_color <- c(
   "Host (Order)" = "#B8DDF5",
   "k__Viruses" = "#D81B60",
   "k__Bacteria" = "#C5A6D1",
   "k__Eukaryota" = "#94C983"
 )
-node_size <- ifelse(node_type == "Host (Order)", 4.2, 2.0)
-label_size <- ifelse(node_type == "Host (Order)", 0.54, 0.40)
-label_font <- ifelse(node_type == "Host (Order)", 2, 1)
-node_fill <- unname(node_color[node_type])
+node_data <- data.frame(
+  name = V(network)$name,
+  node_type = node_type,
+  x = network_layout[, 1],
+  y = network_layout[, 2],
+  stringsAsFactors = FALSE
+)
+node_data$label <- vapply(node_data$name, function(label) {
+  paste(strwrap(label, width = 32), collapse = "\n")
+}, character(1))
+node_data$point_size <- ifelse(node_data$node_type == "Host (Order)", 3.5, 2.2)
+node_data$label_size <- ifelse(node_data$node_type == "Host (Order)", 2.2, 1.55)
+node_data$label_font <- ifelse(node_data$node_type == "Host (Order)", "bold", "plain")
 
-draw_network <- function() {
-  par(mar = c(0, 0, 0, 0), xpd = NA, family = "sans")
-  plot(
-    network,
-    layout = network_layout,
-    rescale = TRUE,
-    asp = 0,
-    margin = 0,
-    vertex.color = node_fill,
-    vertex.size = node_size,
-    vertex.frame.color = "white",
-    vertex.frame.width = 0.35,
-    vertex.label = V(network)$name,
-    vertex.label.color = "black",
-    vertex.label.cex = label_size,
-    vertex.label.family = "sans",
-    vertex.label.font = label_font,
-    edge.color = grDevices::adjustcolor("grey45", alpha.f = 0.28),
-    edge.width = 0.25,
-    edge.arrow.size = 0
-  )
-  legend(
-    "topleft",
-    legend = c("Host (order)", "Virus", "Bacteria", "Eukaryota"),
-    pch = 21,
-    pt.bg = c("#B8DDF5", "#D81B60", "#C5A6D1", "#94C983"),
-    col = "#D9D9D9",
-    pt.cex = c(1.55, 0.95, 0.95, 0.95),
-    pt.lwd = 0.45,
-    bty = "o",
-    box.lwd = 0.45,
-    box.col = "#777777",
-    bg = grDevices::adjustcolor("white", alpha.f = 0.94),
-    cex = 0.92,
-    inset = c(0.015, 0.085),
-    x.intersp = 0.9,
-    y.intersp = 1.05
-  )
-  plot_usr <- par("usr")
-  text(
-    plot_usr[1] + 0.008 * diff(plot_usr[1:2]),
-    plot_usr[4] - 0.008 * diff(plot_usr[3:4]),
-    labels = "D",
-    adj = c(0, 1),
-    cex = 1.25,
-    font = 2,
-    family = "sans"
-  )
-}
+edge_data <- as_data_frame(network, what = "edges")
+edge_data$x <- node_data$x[match(edge_data$from, node_data$name)]
+edge_data$y <- node_data$y[match(edge_data$from, node_data$name)]
+edge_data$xend <- node_data$x[match(edge_data$to, node_data$name)]
+edge_data$yend <- node_data$y[match(edge_data$to, node_data$name)]
 
-grDevices::cairo_pdf(
+network_plot <- ggplot() +
+  geom_segment(
+    data = edge_data,
+    aes(x = x, y = y, xend = xend, yend = yend),
+    colour = grDevices::adjustcolor("grey45", alpha.f = 0.28),
+    linewidth = 0.25
+  ) +
+  geom_point(
+    data = node_data,
+    aes(x = x, y = y, fill = node_type, size = point_size),
+    shape = 21,
+    colour = "white",
+    stroke = 0.35
+  ) +
+  geom_text_repel(
+    data = node_data,
+    aes(x = x, y = y, label = label, size = label_size, fontface = label_font),
+    colour = "black",
+    box.padding = grid::unit(0.30, "lines"),
+    point.padding = grid::unit(0.12, "lines"),
+    force = 5,
+    force_pull = 0.005,
+    max.time = 60,
+    max.iter = 100000,
+    max.overlaps = Inf,
+    min.segment.length = 0,
+    segment.colour = grDevices::adjustcolor("grey35", alpha.f = 0.55),
+    segment.size = 0.16,
+    seed = 42,
+    show.legend = FALSE
+  ) +
+  scale_fill_manual(
+    name = NULL,
+    values = node_color,
+    breaks = c("Host (Order)", "k__Viruses", "k__Bacteria", "k__Eukaryota"),
+    labels = c("Host (order)", "Virus", "Bacteria", "Eukaryota")
+  ) +
+  scale_size_identity(guide = "none") +
+  coord_equal(clip = "off") +
+  labs(tag = "D") +
+  theme_void(base_family = "sans") +
+  theme(
+    legend.position = "top",
+    legend.direction = "horizontal",
+    legend.box = "horizontal",
+    legend.background = element_rect(fill = "white", colour = NA),
+    legend.key = element_rect(fill = NA, colour = NA),
+    legend.text = element_text(size = 7),
+    legend.key.size = grid::unit(0.16, "in"),
+    legend.spacing.x = grid::unit(0.08, "in"),
+    plot.tag = element_text(size = 12, face = "bold"),
+    plot.tag.position = c(0.005, 0.995),
+    plot.margin = margin(8, 14, 8, 8),
+    plot.background = element_rect(fill = "white", colour = NA)
+  )
+
+ggsave(
   file.path(script_dir, "Figure6D_host_pathogen_network.pdf"),
-  width = 8.4,
-  height = 5.1,
-  family = "sans",
-  bg = "transparent"
+  network_plot,
+  width = 10.5,
+  height = 6.3,
+  units = "in",
+  device = grDevices::cairo_pdf,
+  bg = "white"
 )
-draw_network()
-grDevices::dev.off()
-
-grDevices::png(
+ggsave(
   file.path(script_dir, "Figure6D_host_pathogen_network.png"),
-  width = 5040,
-  height = 3060,
-  res = 600,
-  bg = "transparent"
+  network_plot,
+  width = 10.5,
+  height = 6.3,
+  units = "in",
+  dpi = 600,
+  bg = "white"
 )
-draw_network()
-grDevices::dev.off()
 
 message("Figure6D network completed: ", script_dir)

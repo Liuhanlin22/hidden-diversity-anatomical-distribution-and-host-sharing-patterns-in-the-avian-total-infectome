@@ -35,6 +35,16 @@ missing_merged_columns <- setdiff(required_merged_columns, names(merged_data))
 if (length(missing_merged_columns) > 0) {
   stop("Missing columns in merged input: ", paste(missing_merged_columns, collapse = ", "))
 }
+if (nrow(merged_data) != 460 || anyDuplicated(merged_data$species_name)) {
+  stop("The final Figure6E input must contain 460 unique species-level taxa.")
+}
+if (any(grepl("^Alphainfluenzavirus influenzae \\(", merged_data$species_name)) ||
+    any(merged_data$species_name %in% c(
+      "Streptococcus suis (strain avian group)",
+      "Streptococcus suis (strain pig group)"
+    ))) {
+  stop("Influenza and Streptococcus suis labels must be merged at species level.")
+}
 
 order_columns <- required_merged_columns[-1]
 order_matrix <- as.data.frame(lapply(merged_data[order_columns], function(x) {
@@ -72,6 +82,21 @@ count_data <- data.frame(
 )
 count_data <- count_data[count_data$cross_order_count >= 3, , drop = FALSE]
 count_data <- count_data[order(-count_data$cross_order_count, count_data$species_name), , drop = FALSE]
+if (nrow(count_data) != 16) {
+  stop("The final Figure6E data should contain 16 taxa detected in at least three orders.")
+}
+write.csv(
+  count_data,
+  file.path(script_dir, "Figure6E_cross_order_counts_used.csv"),
+  row.names = FALSE,
+  na = ""
+)
+write.csv(
+  count_data,
+  file.path(script_dir, "virus_table_cross_order_counts_updated.csv"),
+  row.names = FALSE,
+  na = ""
+)
 plot_data <- count_data
 plot_data$x <- 1 + (seq_len(nrow(plot_data)) - 1) * 0.64
 # Keep the compressed x-spacing, but narrow the bars independently.

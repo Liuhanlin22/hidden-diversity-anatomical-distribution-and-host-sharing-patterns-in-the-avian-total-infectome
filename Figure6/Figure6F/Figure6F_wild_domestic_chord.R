@@ -42,9 +42,34 @@ data <- data[data$Domestic > 0 & data$Wild > 0, , drop = FALSE]
 if (nrow(data) == 0) {
   stop("No species has positive abundance in both Domestic and Wild.")
 }
+if (nrow(data) != 22) {
+  stop("The final Figure6F input must contain 22 taxa detected in both groups.")
+}
 if (anyDuplicated(data$species_name)) {
   stop("species_name must be unique in the Domestic/Wild input table.")
 }
+if (any(grepl("^Alphainfluenzavirus influenzae \\(", data$species_name)) ||
+    any(data$species_name %in% c(
+      "Streptococcus suis (strain avian group)",
+      "Streptococcus suis (strain pig group)"
+    ))) {
+  stop("Influenza and Streptococcus suis labels must be merged at species level.")
+}
+
+write.table(
+  data.frame(
+    species_name = data$species_name,
+    kindom = data$kindom,
+    Domestic_RPM_sum = data$Domestic,
+    Wild_RPM_sum = data$Wild,
+    stringsAsFactors = FALSE
+  ),
+  file.path(script_dir, "Figure6F_input_audit.tsv"),
+  sep = "\t",
+  quote = FALSE,
+  row.names = FALSE,
+  na = ""
+)
 
 kingdom_order <- c("k__Bacteria", "k__Eukaryota", "k__Viruses")
 data$kindom <- factor(data$kindom, levels = kingdom_order)
@@ -116,6 +141,8 @@ circos.par(
   # Domestic at upper-left, Wild at lower-left, and pathogens clockwise
   # through the right and lower arcs.
   start.degree = 170,
+  canvas.xlim = c(-1.35, 1.35),
+  canvas.ylim = c(-1.35, 1.35),
   gap.after = gap_after,
   track.margin = c(0.006, 0.006),
   cell.padding = c(0, 0, 0, 0),
@@ -223,6 +250,8 @@ grDevices::png(
 par(mar = c(0.2, 0.2, 0.2, 0.2), xpd = NA, family = "sans")
 circos.par(
   start.degree = 170,
+  canvas.xlim = c(-1.35, 1.35),
+  canvas.ylim = c(-1.35, 1.35),
   gap.after = gap_after,
   track.margin = c(0.006, 0.006),
   cell.padding = c(0, 0, 0, 0),

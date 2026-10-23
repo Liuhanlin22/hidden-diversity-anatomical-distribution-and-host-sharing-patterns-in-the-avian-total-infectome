@@ -1,153 +1,153 @@
-Microbe,Host,Kindom
-Avibacterium paragallinarum,Anseriformes,k__Bacteria
-Avibacterium paragallinarum,Charadriiformes,k__Bacteria
-Avibacterium paragallinarum,Galliformes,k__Bacteria
-Campylobacter jejuni,Anseriformes,k__Bacteria
-Campylobacter jejuni,Charadriiformes,k__Bacteria
-Campylobacter jejuni,Galliformes,k__Bacteria
-Campylobacter jejuni,Passeriformes,k__Bacteria
-Clostridium botulinum,Anseriformes,k__Bacteria
-Clostridium botulinum,Charadriiformes,k__Bacteria
-Clostridium botulinum,Galliformes,k__Bacteria
-Clostridium botulinum,Pelecaniformes,k__Bacteria
-Clostridium botulinum,Procellariiformes,k__Bacteria
-Clostridium botulinum,Psittaciformes,k__Bacteria
-Mycoplasma anserisalpingitidis,Anseriformes,k__Bacteria
-Mycoplasma anserisalpingitidis,Passeriformes,k__Bacteria
-Mycoplasma anserisalpingitidis,Procellariiformes,k__Bacteria
-Riemerella anatipestifer,Anseriformes,k__Bacteria
-Riemerella anatipestifer,Charadriiformes,k__Bacteria
-Riemerella anatipestifer,Suliformes,k__Bacteria
-Staphylococcus aureus,Anseriformes,k__Bacteria
-Staphylococcus aureus,Charadriiformes,k__Bacteria
-Staphylococcus aureus,Galliformes,k__Bacteria
-Staphylococcus aureus,Passeriformes,k__Bacteria
-Staphylococcus aureus,Pelecaniformes,k__Bacteria
-Staphylococcus aureus,Procellariiformes,k__Bacteria
-Staphylococcus aureus,Psittaciformes,k__Bacteria
-Streptococcus suis,Anseriformes,k__Bacteria
-Streptococcus suis,Charadriiformes,k__Bacteria
-Streptococcus suis,Galliformes,k__Bacteria
-Streptococcus suis,Passeriformes,k__Bacteria
-Streptococcus suis,Psittaciformes,k__Bacteria
-Vibrio cholerae,Anseriformes,k__Bacteria
-Vibrio cholerae,Charadriiformes,k__Bacteria
-Aleuroglyphus ovatus,Charadriiformes,k__Eukaryota
-Aleuroglyphus ovatus,Passeriformes,k__Eukaryota
-Aleuroglyphus ovatus,Procellariiformes,k__Eukaryota
-Hydatigera sp. Avi1,Anseriformes,k__Eukaryota
-Hydatigera sp. Avi1,Charadriiformes,k__Eukaryota
-Hydatigera sp. Avi1,Passeriformes,k__Eukaryota
-Hydatigera sp. Avi1,Psittaciformes,k__Eukaryota
-Plasmodium sp. Avi2,Anseriformes,k__Eukaryota
-Plasmodium sp. Avi2,Passeriformes,k__Eukaryota
-Sarcoptes scabiei,Anseriformes,k__Eukaryota
-Sarcoptes scabiei,Charadriiformes,k__Eukaryota
-Sarcoptes scabiei,Galliformes,k__Eukaryota
-Sarcoptes scabiei,Passeriformes,k__Eukaryota
-Sarcoptes scabiei,Pelecaniformes,k__Eukaryota
-Sarcoptes scabiei,Psittaciformes,k__Eukaryota
-Sarcoptes scabiei,Strigiformes,k__Eukaryota
-Strongyloides papillosus,Charadriiformes,k__Eukaryota
-Strongyloides papillosus,Passeriformes,k__Eukaryota
-Trichomonas sp. Avi3,Anseriformes,k__Eukaryota
-Trichomonas sp. Avi3,Galliformes,k__Eukaryota
-Trichomonas sp. Avi4,Anseriformes,k__Eukaryota
-Trichomonas sp. Avi4,Charadriiformes,k__Eukaryota
-Trichomonas sp. Avi4,Galliformes,k__Eukaryota
-Trichomonas sp. Avi5,Anseriformes,k__Eukaryota
-Trichomonas sp. Avi5,Galliformes,k__Eukaryota
-Tritrichomonas sp . Avi1,Anseriformes,k__Eukaryota
-Tritrichomonas sp . Avi1,Galliformes,k__Eukaryota
-Tritrichomonas sp . Avi1,Psittaciformes,k__Eukaryota
-Alphainfluenzavirus influenzae,Anseriformes,k__Viruses
-Alphainfluenzavirus influenzae,Charadriiformes,k__Viruses
-Alphainfluenzavirus influenzae,Galliformes,k__Viruses
-Avian associated calicivirus sp. 2,Charadriiformes,k__Viruses
-Avian associated calicivirus sp. 2,Suliformes,k__Viruses
-Avian associated calicivirus sp. 3,Charadriiformes,k__Viruses
-Avian associated calicivirus sp. 3,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L1,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L1,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L124,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L124,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L136,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L136,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L137,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L137,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L154,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L154,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L155,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L155,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L156,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L156,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L163,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L163,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L164,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L164,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L166,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L166,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L170,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L170,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L18,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L18,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L22,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L22,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L27,Anseriformes,k__Viruses
-Avian associated hepato-like virus sp. L27,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L27,Pelecaniformes,k__Viruses
-Avian associated hepato-like virus sp. L27,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L28,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L28,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L32,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L32,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L48,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L48,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L61,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L61,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L80,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L80,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L93,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L93,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L94,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L94,Suliformes,k__Viruses
-Avian associated hepato-like virus sp. L96,Charadriiformes,k__Viruses
-Avian associated hepato-like virus sp. L96,Suliformes,k__Viruses
-Avian associated paslahepevirus sp. 1,Charadriiformes,k__Viruses
-Avian associated paslahepevirus sp. 1,Suliformes,k__Viruses
-Avian associated picorna-like virus sp. L10,Charadriiformes,k__Viruses
-Avian associated picorna-like virus sp. L10,Suliformes,k__Viruses
-Avian associated picorna-like virus sp. L16,Charadriiformes,k__Viruses
-Avian associated picorna-like virus sp. L16,Suliformes,k__Viruses
-Avian associated picorna-like virus sp. L23,Charadriiformes,k__Viruses
-Avian associated picorna-like virus sp. L23,Suliformes,k__Viruses
-Avian associated picorna-like virus sp. L26,Charadriiformes,k__Viruses
-Avian associated picorna-like virus sp. L26,Strigiformes,k__Viruses
-Avian associated picorna-like virus sp. L7,Charadriiformes,k__Viruses
-Avian associated picorna-like virus sp. L7,Suliformes,k__Viruses
-Avian associated picorna-like virus sp. L9,Charadriiformes,k__Viruses
-Avian associated picorna-like virus sp. L9,Pelecaniformes,k__Viruses
-Avian coronavirus,Anseriformes,k__Viruses
-Avian coronavirus,Charadriiformes,k__Viruses
-Avian coronavirus,Galliformes,k__Viruses
-Canada goose coronavirus,Anseriformes,k__Viruses
-Canada goose coronavirus,Charadriiformes,k__Viruses
-Chicken picornavirus 4,Anseriformes,k__Viruses
-Chicken picornavirus 4,Galliformes,k__Viruses
-Deltacoronavirus sp. Avi1,Charadriiformes,k__Viruses
-Deltacoronavirus sp. Avi1,Passeriformes,k__Viruses
-Duck hepatitis B virus,Anseriformes,k__Viruses
-Duck hepatitis B virus,Psittaciformes,k__Viruses
-Gallivirus sp.,Anseriformes,k__Viruses
-Gallivirus sp.,Galliformes,k__Viruses
-Gentoo penguin virus,Charadriiformes,k__Viruses
-Gentoo penguin virus,Sphenisciformes,k__Viruses
-Megrivirus sp.,Anseriformes,k__Viruses
-Megrivirus sp.,Galliformes,k__Viruses
-Passerivirus GPS,Charadriiformes,k__Viruses
-Passerivirus GPS,Passeriformes,k__Viruses
-Passerivirus GPS,Procellariiformes,k__Viruses
-Pink-eared duck megrivirus,Anseriformes,k__Viruses
-Pink-eared duck megrivirus,Charadriiformes,k__Viruses
-Sicinivirus A,Anseriformes,k__Viruses
-Sicinivirus A,Galliformes,k__Viruses
+"Microbe","Host","Kindom"
+"Campylobacter jejuni","Anseriformes","k__Bacteria"
+"Campylobacter jejuni","Charadriiformes","k__Bacteria"
+"Campylobacter jejuni","Galliformes","k__Bacteria"
+"Campylobacter jejuni","Passeriformes","k__Bacteria"
+"Clostridium botulinum","Anseriformes","k__Bacteria"
+"Clostridium botulinum","Charadriiformes","k__Bacteria"
+"Clostridium botulinum","Galliformes","k__Bacteria"
+"Clostridium botulinum","Pelecaniformes","k__Bacteria"
+"Clostridium botulinum","Procellariiformes","k__Bacteria"
+"Clostridium botulinum","Psittaciformes","k__Bacteria"
+"Mycoplasma anserisalpingitidis","Anseriformes","k__Bacteria"
+"Mycoplasma anserisalpingitidis","Passeriformes","k__Bacteria"
+"Mycoplasma anserisalpingitidis","Procellariiformes","k__Bacteria"
+"Avibacterium paragallinarum","Anseriformes","k__Bacteria"
+"Avibacterium paragallinarum","Charadriiformes","k__Bacteria"
+"Avibacterium paragallinarum","Galliformes","k__Bacteria"
+"Staphylococcus aureus","Anseriformes","k__Bacteria"
+"Staphylococcus aureus","Charadriiformes","k__Bacteria"
+"Staphylococcus aureus","Galliformes","k__Bacteria"
+"Staphylococcus aureus","Passeriformes","k__Bacteria"
+"Staphylococcus aureus","Pelecaniformes","k__Bacteria"
+"Staphylococcus aureus","Procellariiformes","k__Bacteria"
+"Staphylococcus aureus","Psittaciformes","k__Bacteria"
+"Streptococcus suis","Anseriformes","k__Bacteria"
+"Streptococcus suis","Charadriiformes","k__Bacteria"
+"Streptococcus suis","Galliformes","k__Bacteria"
+"Streptococcus suis","Passeriformes","k__Bacteria"
+"Streptococcus suis","Psittaciformes","k__Bacteria"
+"Vibrio cholerae","Anseriformes","k__Bacteria"
+"Vibrio cholerae","Charadriiformes","k__Bacteria"
+"Riemerella anatipestifer","Anseriformes","k__Bacteria"
+"Riemerella anatipestifer","Charadriiformes","k__Bacteria"
+"Riemerella anatipestifer","Suliformes","k__Bacteria"
+"Aleuroglyphus ovatus","Charadriiformes","k__Eukaryota"
+"Aleuroglyphus ovatus","Passeriformes","k__Eukaryota"
+"Aleuroglyphus ovatus","Procellariiformes","k__Eukaryota"
+"Plasmodium sp. Avi2","Anseriformes","k__Eukaryota"
+"Plasmodium sp. Avi2","Passeriformes","k__Eukaryota"
+"Sarcoptes scabiei","Anseriformes","k__Eukaryota"
+"Sarcoptes scabiei","Charadriiformes","k__Eukaryota"
+"Sarcoptes scabiei","Galliformes","k__Eukaryota"
+"Sarcoptes scabiei","Passeriformes","k__Eukaryota"
+"Sarcoptes scabiei","Pelecaniformes","k__Eukaryota"
+"Sarcoptes scabiei","Psittaciformes","k__Eukaryota"
+"Sarcoptes scabiei","Strigiformes","k__Eukaryota"
+"Strongyloides papillosus","Charadriiformes","k__Eukaryota"
+"Strongyloides papillosus","Passeriformes","k__Eukaryota"
+"Hydatigera sp. Avi1","Anseriformes","k__Eukaryota"
+"Hydatigera sp. Avi1","Charadriiformes","k__Eukaryota"
+"Hydatigera sp. Avi1","Passeriformes","k__Eukaryota"
+"Hydatigera sp. Avi1","Psittaciformes","k__Eukaryota"
+"Trichomonas sp. Avi1","Anseriformes","k__Eukaryota"
+"Trichomonas sp. Avi1","Galliformes","k__Eukaryota"
+"Trichomonas sp. Avi2","Anseriformes","k__Eukaryota"
+"Trichomonas sp. Avi2","Charadriiformes","k__Eukaryota"
+"Trichomonas sp. Avi2","Galliformes","k__Eukaryota"
+"Trichomonas sp. Avi3","Anseriformes","k__Eukaryota"
+"Trichomonas sp. Avi3","Galliformes","k__Eukaryota"
+"Tritrichomonas sp. Avi1","Anseriformes","k__Eukaryota"
+"Tritrichomonas sp. Avi1","Galliformes","k__Eukaryota"
+"Tritrichomonas sp. Avi1","Psittaciformes","k__Eukaryota"
+"Avian associated calicivirus sp. 2","Charadriiformes","k__Viruses"
+"Avian associated calicivirus sp. 2","Suliformes","k__Viruses"
+"Avian associated calicivirus sp. 3","Charadriiformes","k__Viruses"
+"Avian associated calicivirus sp. 3","Suliformes","k__Viruses"
+"Avian coronavirus","Anseriformes","k__Viruses"
+"Avian coronavirus","Charadriiformes","k__Viruses"
+"Avian coronavirus","Galliformes","k__Viruses"
+"Canada goose coronavirus","Anseriformes","k__Viruses"
+"Canada goose coronavirus","Charadriiformes","k__Viruses"
+"Deltacoronavirus sp. Avi1","Charadriiformes","k__Viruses"
+"Deltacoronavirus sp. Avi1","Passeriformes","k__Viruses"
+"Gentoo penguin virus","Charadriiformes","k__Viruses"
+"Gentoo penguin virus","Sphenisciformes","k__Viruses"
+"Duck hepatitis B virus","Anseriformes","k__Viruses"
+"Duck hepatitis B virus","Psittaciformes","k__Viruses"
+"Avian associated paslahepevirus sp. 1","Charadriiformes","k__Viruses"
+"Avian associated paslahepevirus sp. 1","Suliformes","k__Viruses"
+"Alphainfluenzavirus influenzae","Anseriformes","k__Viruses"
+"Alphainfluenzavirus influenzae","Charadriiformes","k__Viruses"
+"Alphainfluenzavirus influenzae","Galliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L1","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L1","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L118","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L118","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L130","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L130","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L131","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L131","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L148","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L148","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L149","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L149","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L150","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L150","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L157","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L157","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L158","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L158","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L160","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L160","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L164","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L164","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L18","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L18","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L22","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L22","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L27","Anseriformes","k__Viruses"
+"Avian associated hepato-like virus sp. L27","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L27","Pelecaniformes","k__Viruses"
+"Avian associated hepato-like virus sp. L27","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L28","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L28","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L32","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L32","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L45","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L45","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L58","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L58","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L77","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L77","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L88","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L88","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L89","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L89","Suliformes","k__Viruses"
+"Avian associated hepato-like virus sp. L91","Charadriiformes","k__Viruses"
+"Avian associated hepato-like virus sp. L91","Suliformes","k__Viruses"
+"Avian associated picorna-like virus sp. L10","Charadriiformes","k__Viruses"
+"Avian associated picorna-like virus sp. L10","Suliformes","k__Viruses"
+"Avian associated picorna-like virus sp. L15","Charadriiformes","k__Viruses"
+"Avian associated picorna-like virus sp. L15","Suliformes","k__Viruses"
+"Avian associated picorna-like virus sp. L21","Charadriiformes","k__Viruses"
+"Avian associated picorna-like virus sp. L21","Suliformes","k__Viruses"
+"Avian associated picorna-like virus sp. L24","Charadriiformes","k__Viruses"
+"Avian associated picorna-like virus sp. L24","Strigiformes","k__Viruses"
+"Avian associated picorna-like virus sp. L7","Charadriiformes","k__Viruses"
+"Avian associated picorna-like virus sp. L7","Suliformes","k__Viruses"
+"Avian associated picorna-like virus sp. L9","Charadriiformes","k__Viruses"
+"Avian associated picorna-like virus sp. L9","Pelecaniformes","k__Viruses"
+"Chicken picornavirus 4","Anseriformes","k__Viruses"
+"Chicken picornavirus 4","Galliformes","k__Viruses"
+"Gallivirus sp.","Anseriformes","k__Viruses"
+"Gallivirus sp.","Galliformes","k__Viruses"
+"Megrivirus sp.","Anseriformes","k__Viruses"
+"Megrivirus sp.","Galliformes","k__Viruses"
+"Passerivirus GPS","Charadriiformes","k__Viruses"
+"Passerivirus GPS","Passeriformes","k__Viruses"
+"Passerivirus GPS","Procellariiformes","k__Viruses"
+"Pink-eared duck megrivirus","Anseriformes","k__Viruses"
+"Pink-eared duck megrivirus","Charadriiformes","k__Viruses"
+"Sicinivirus A","Anseriformes","k__Viruses"
+"Sicinivirus A","Galliformes","k__Viruses"

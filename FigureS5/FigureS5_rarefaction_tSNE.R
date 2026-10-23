@@ -254,8 +254,8 @@ make_rarefaction_plot <- function(analysis_id, panel_label) {
              hjust = -0.18, vjust = 1.2, size = 4.8, fontface = "bold") +
     scale_colour_manual(values = group_colors, drop = FALSE) +
     scale_fill_manual(values = group_colors, drop = FALSE) +
-    scale_x_continuous(breaks = seq(0, max_depth, by = 2),
-                       limits = c(0, max_depth + max(0.4, max_depth * 0.08)),
+    scale_x_continuous(breaks = seq(0, 10, by = 2),
+                       limits = c(0, 10),
                        expand = c(0, 0)) +
     labs(x = "Libraries per group", y = "Detected taxa per group") +
     coord_cartesian(clip = "off") +
