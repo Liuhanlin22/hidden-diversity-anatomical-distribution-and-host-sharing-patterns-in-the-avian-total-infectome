@@ -253,6 +253,81 @@ for (sample_type in eligible_types) {
 }
 
 overview <- do.call(rbind, overview_rows)
+
+# Exact two-sided permutation test of raw cumulative richness against library
+# number across the nine sample types included in the Figure 5A comparison.
+exact_spearman_permutation <- function(x, y) {
+  if (length(x) != length(y) || anyNA(x) || anyNA(y)) {
+    stop("Permutation-test inputs must be equal-length vectors without missing values.")
+  }
+  n <- length(x)
+  if (n < 2L) stop("At least two sample types are required.")
+
+  n_permutations <- factorial(n)
+  if (!is.finite(n_permutations) || n_permutations > .Machine$integer.max) {
+    stop("The number of exact permutations is too large to enumerate safely.")
+  }
+  n_permutations <- as.integer(n_permutations)
+  permutation_indices <- matrix(NA_integer_, nrow = n_permutations, ncol = n)
+  permutation_row <- 0L
+
+  enumerate_permutations <- function(prefix, remaining) {
+    if (length(remaining) == 0L) {
+      permutation_row <<- permutation_row + 1L
+      permutation_indices[permutation_row, ] <<- prefix
+      return(invisible(NULL))
+    }
+    for (i in seq_along(remaining)) {
+      enumerate_permutations(c(prefix, remaining[i]), remaining[-i])
+    }
+  }
+  enumerate_permutations(integer(0), seq_len(n))
+  if (permutation_row != n_permutations) {
+    stop("Failed to enumerate all permutations.")
+  }
+
+  rank_x <- rank(x, ties.method = "average")
+  rank_y <- rank(y, ties.method = "average")
+  centered_x <- rank_x - mean(rank_x)
+  centered_y <- rank_y - mean(rank_y)
+  denominator <- sqrt(sum(centered_x^2) * sum(centered_y^2))
+  if (denominator == 0) stop("Spearman correlation is undefined for constant input.")
+
+  observed_rho <- sum(centered_x * centered_y) / denominator
+  permuted_rank_y <- matrix(
+    rank_y[permutation_indices], nrow = n_permutations, ncol = n
+  )
+  permuted_rho <- drop((permuted_rank_y %*% centered_x) / denominator)
+  extreme_permutations <- sum(abs(permuted_rho) >= abs(observed_rho) - 1e-12)
+
+  data.frame(
+    n_sample_types = n,
+    spearman_rho = observed_rho,
+    p_value_two_sided_exact = extreme_permutations / n_permutations,
+    extreme_permutations = extreme_permutations,
+    total_permutations = n_permutations,
+    stringsAsFactors = FALSE
+  )
+}
+
+richness_test_data <- overview[
+  overview$included_in_n5_analysis,
+  c("sample_type", "n_libraries", "observed_cumulative_richness"),
+  drop = FALSE
+]
+if (nrow(richness_test_data) != 9L) {
+  stop("Expected nine eligible sample types for the raw-richness permutation test.")
+}
+raw_richness_spearman_test <- exact_spearman_permutation(
+  richness_test_data$n_libraries,
+  richness_test_data$observed_cumulative_richness
+)
+raw_richness_spearman_test$test <-
+  "Exact two-sided permutation test of Spearman rank correlation"
+raw_richness_spearman_test$sample_types <- paste(
+  richness_test_data$sample_type, collapse = "; "
+)
+
 type_summary <- do.call(rbind, type_summary_rows)
 type_summary$plot_order <- match(type_summary$sample_type, TYPE_ORDER)
 type_summary <- type_summary[order(type_summary$plot_order), , drop = FALSE]
@@ -307,6 +382,11 @@ category_curves <- do.call(rbind, category_rows)
 category_draws <- do.call(rbind, category_draw_rows)
 
 write.csv(overview, file.path(script_dir, "FigureS3_sample_type_overview_R.csv"), row.names = FALSE)
+write.csv(
+  raw_richness_spearman_test,
+  file.path(script_dir, "FigureS3_raw_richness_spearman_exact_permutation_R.csv"),
+  row.names = FALSE
+)
 write.csv(type_summary, file.path(script_dir, "FigureS3_rarefaction_n5_summary_R.csv"), row.names = FALSE)
 write.csv(curves, file.path(script_dir, "FigureS3_rarefaction_curve_summary_by_sample_type_R.csv"), row.names = FALSE)
 write.csv(n5_draws, file.path(script_dir, "FigureS3_rarefaction_draws_n5_R.csv"), row.names = FALSE)
